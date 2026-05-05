@@ -30,38 +30,46 @@ $testimonials_description = get_field('testimonials_description');
                     $comment = get_sub_field('testimonial_comment');
                     $rating = get_sub_field('testimonial_rating');
                     ?>
-                    <div class="testimonial-card">
-                        <div class="testimonial-header">
-                            <?php if ($avatar): ?>
-                                <img src="<?php echo esc_url($avatar['url']); ?>" alt="<?php echo esc_attr($name); ?>" class="testimonial-avatar" />
-                            <?php endif; ?>
-                            
-                            <div class="testimonial-info">
-                                <?php if ($name): ?>
-                                    <h3 class="testimonial-name"><?php echo esc_html($name); ?></h3>
-                                <?php endif; ?>
-                                
-                                <?php if ($position): ?>
-                                    <p class="testimonial-position"><?php echo esc_html($position); ?></p>
-                                <?php endif; ?>
-                            </div>
-                        </div>
-                        
-                        <?php if ($rating): ?>
-                            <div class="testimonial-rating">
-                                <?php for ($i = 0; $i < intval($rating); $i++): ?>
-                                    <span class="star">★</span>
-                                <?php endfor; ?>
-                                <?php for ($i = intval($rating); $i < 5; $i++): ?>
-                                    <span class="star empty">★</span>
-                                <?php endfor; ?>
-                            </div>
-                        <?php endif; ?>
-                        
-                        <?php if ($comment): ?>
-                            <p class="testimonial-comment"><?php echo esc_html($comment); ?></p>
-                        <?php endif; ?>
-                    </div>
+                <div class="testimonial-card">
+    <div class="testimonial-card-inner">
+
+        <div class="testimonial-left">
+            <?php if ($avatar): ?>
+                <img src="<?php echo esc_url($avatar['url']); ?>" alt="<?php echo esc_attr($name); ?>" class="testimonial-avatar" />
+            <?php endif; ?>
+
+            <div class="testimonial-info">
+                <?php if ($name): ?>
+                    <h3 class="testimonial-name"><?php echo esc_html($name); ?></h3>
+                <?php endif; ?>
+
+                <?php if ($position): ?>
+                    <p class="testimonial-position"><?php echo esc_html($position); ?></p>
+                <?php endif; ?>
+            </div>
+        </div>
+
+        <div class="testimonial-right">
+            <?php if ($comment): ?>
+                <p class="testimonial-comment"><?php echo esc_html($comment); ?></p>
+            <?php endif; ?>
+
+            <div class="testimonial-quote">❝ ❞</div>
+
+            <?php if ($rating): ?>
+                <div class="testimonial-rating">
+                    <?php for ($i = 0; $i < intval($rating); $i++): ?>
+                        <span class="star">★</span>
+                    <?php endfor; ?>
+                    <?php for ($i = intval($rating); $i < 5; $i++): ?>
+                        <span class="star empty">★</span>
+                    <?php endfor; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+
+    </div>
+</div>
                 <?php endwhile; ?>
             </div>
         <?php endif; ?>

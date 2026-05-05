@@ -123,7 +123,7 @@ jQuery(document).ready(function($) {
 jQuery(document).ready(function($) {
   $(".testimonials-slider").slick({
     arrows: false,
-    dots: false,
+    dots: true,
     speed: 600,
     autoplay: true,
     autoplaySpeed: 5000,
@@ -133,12 +133,12 @@ jQuery(document).ready(function($) {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768, // tablet & mobile
+        breakpoint: 768,
         settings: {
-          slidesToShow:1,
-        },
-      },
-    ],
+          slidesToShow: 1
+        }
+      }
+    ]
   });
 });
 

@@ -18,28 +18,12 @@ remove_action( 'genesis_loop', 'genesis_do_loop' );
 // Xóa section trước footer nếu không muốn hiện
 remove_action( 'genesis_before_footer', 'caia_add_content_after_footer', 8 );
 
-// Thêm layout landing vào genesis_loop
+// Thêm layout landing vào genesis_after_header
 add_action( 'genesis_after_header', 'caia_add_page_landing');
 function caia_add_page_landing() {
     ?>
-    <main id="main-landing" class="landing-page">
-
-        <?php get_template_part( 'template-parts/hero' ); ?>
-
-        <?php get_template_part( 'template-parts/why-choose-us' ); ?>
-
-        <?php get_template_part( 'template-parts/featured-courses'); ?>
-
-        <?php get_template_part( 'template-parts/statistics'); ?>
-
-        <?php get_template_part( 'template-parts/testimonials' ); ?>
-
-        <?php get_template_part( 'template-parts/cta-section' ); ?>
-
-        <?php get_template_part( 'template-parts/fqa-section' ); ?>
-
-        <?php get_template_part( 'template-parts/hinhanh-section' ); ?>
-       
+    <main id="main-landing" class="landing-page hotel-landing">
+        <?php hotel_landing_render_parts(); ?>
     </main>
     <?php
 }

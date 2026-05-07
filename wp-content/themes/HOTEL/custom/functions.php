@@ -40,6 +40,38 @@ function custom_override_style() {
     wp_deregister_style($handle);
     wp_enqueue_style($handle, get_stylesheet_uri(), array(), $version);
 }
+
+add_action('wp_enqueue_scripts', 'caia_enqueue_hotel_landing_assets', 120);
+function caia_enqueue_hotel_landing_assets() {
+    $is_landing = is_page_template('page-landing.php');
+
+    if (!$is_landing && is_singular()) {
+        $post = get_post();
+        $is_landing = $post && has_shortcode($post->post_content, 'landing_page');
+    }
+
+    if (!$is_landing) {
+        return;
+    }
+
+    $css_path = get_stylesheet_directory() . '/assets/css/landing.css';
+    $js_path = get_stylesheet_directory() . '/assets/js/landing.js';
+
+    wp_enqueue_style(
+        'hotel-landing',
+        get_stylesheet_directory_uri() . '/assets/css/landing.css',
+        array('caia'),
+        file_exists($css_path) ? filemtime($css_path) : CHILD_THEME_VERSION
+    );
+
+    wp_enqueue_script(
+        'hotel-landing',
+        get_stylesheet_directory_uri() . '/assets/js/landing.js',
+        array('jquery'),
+        file_exists($js_path) ? filemtime($js_path) : CHILD_THEME_VERSION,
+        true
+    );
+}
 //Cho phép upload ảnh định dạng Svg
 add_filter('upload_mimes', 'caia_mime_types', 1, 1);
 function caia_mime_types($mime_types){  

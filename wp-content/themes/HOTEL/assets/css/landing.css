@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Norms Light';
+  src: url('/wp-content/themes/HOTEL/fonts/TT\ Norms\ Light.ttf') format('opentype');
+}
+
 /* Hotel landing page */
 
 .page-template-page-landing .site-header,
@@ -40,8 +45,7 @@
 
 .hotel-container {
     margin: 0 auto;
-    max-width: 1180px;
-    padding: 0 22px;
+    max-width: 1280px;
     width: 100%;
 }
 
@@ -169,7 +173,7 @@
     background-position: center;
     background-size: cover;
     display: flex;
-    min-height: 590px;
+    min-height: 100vh;
     padding: 120px 0 86px;
     position: relative;
 }
@@ -186,8 +190,8 @@
 
 .hotel-hero__title {
     color: #fff;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 45px;
+    font-family: "Noto Serif Display", serif;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0;
     line-height: 1.16;

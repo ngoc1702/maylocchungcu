@@ -37,8 +37,8 @@ p,
 select,
 textarea {
   color: #3f4c65;
-  font-family: "Inter", sans-serif;
-  /* font-family: "Inter", sans-serif; */
+  font-family: "Norms Light", sans-serif;
+  /* font-family: "Norms Light", sans-serif; */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.76;
@@ -63,7 +63,7 @@ label,
 select,
 textarea {
   color: #333;
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -160,7 +160,7 @@ body {
   position: absolute;
   top: 2px;
   right: -270px;
-  cursor: pointer;
+  cursor: poNorms Light;
   background: #dd0000;
   color: #fff;
   height: 45px;
@@ -184,7 +184,7 @@ body {
 }
 
 .site-title {
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
   font-size: 36px;
   line-height: 1.35;
   margin: 0;
@@ -277,7 +277,7 @@ body {
   position: absolute;
   top: 2px;
   right: 100px;
-  cursor: pointer;
+  cursor: poNorms Light;
   color: #071f5f;
   height: 40px;
   display: table;
@@ -577,7 +577,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
   line-height: 1.35;
   margin: 0 0 10px;
 }
@@ -599,7 +599,7 @@ h2 a:visited {
 h2 a,
 h2 a:visited {
   color: #333;
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
 }
 
 h2 a:hover {
@@ -870,7 +870,7 @@ p.wp-caption-text {
 input[type="button"],
 input[type="submit"] {
   background: #f2f2f2;
-  cursor: pointer;
+  cursor: poNorms Light;
   padding: 10px 20px;
   color: #333;
   -webkit-appearance: none;
@@ -1124,7 +1124,7 @@ input#submit {
 }
 
 .slick-list.dragging {
-  cursor: pointer;
+  cursor: poNorms Light;
   cursor: hand;
 }
 
@@ -1212,7 +1212,7 @@ input#submit {
   height: 8px;
   margin-right: 5px;
   padding: 0;
-  cursor: pointer;
+  cursor: poNorms Light;
 }
 
 .slick-dots li button {
@@ -1223,7 +1223,7 @@ input#submit {
   height: 8px;
   padding: 5px;
   border-radius: 100px;
-  cursor: pointer;
+  cursor: poNorms Light;
   color: transparent;
   border: 0;
   outline: none;
@@ -1625,7 +1625,7 @@ input#submit {
   border: 1px solid #ffa405;
   color: #fff;
   text-align: center;
-  cursor: pointer;
+  cursor: poNorms Light;
   font-weight: 500;
   font-size: 13px;
   margin: 0 !important;
@@ -1954,9 +1954,9 @@ input#submit {
     text-transform: uppercase;
     text-decoration: none;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Norms Light", sans-serif;
 
-    cursor: pointer;
+    cursor: poNorms Light;
 
     transition: all 0.25s ease;
 }
@@ -2231,9 +2231,9 @@ input#submit {
   transition: all 0.3s ease;
   white-space: nowrap;
   text-transform: uppercase;
-  cursor: pointer;
+  cursor: poNorms Light;
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
 }
 
 .btn-cta:hover {
@@ -2288,12 +2288,12 @@ input#submit {
   padding: 20px 24px;
   border: 0;
   background: transparent;
-  cursor: pointer;
+  cursor: poNorms Light;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: "Norms Light", sans-serif;
   color: #071f5f;
   font-size: 17px;
   font-weight: 600;
@@ -2544,7 +2544,7 @@ input#submit {
   p,
   select,
   textarea {
-    font-family: "Inter", sans-serif;
+    font-family: "Norms Light", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.6;

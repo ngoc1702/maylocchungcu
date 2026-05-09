@@ -54,23 +54,17 @@ function caia_enqueue_hotel_landing_assets() {
         return;
     }
 
-    $css_path = get_stylesheet_directory() . '/assets/css/landing.css';
     $js_path = get_stylesheet_directory() . '/assets/js/landing.js';
 
-    wp_enqueue_style(
-        'hotel-landing',
-        get_stylesheet_directory_uri() . '/assets/css/landing.css',
-        array('caia'),
-        file_exists($css_path) ? filemtime($css_path) : CHILD_THEME_VERSION
-    );
-
-    wp_enqueue_script(
-        'hotel-landing',
-        get_stylesheet_directory_uri() . '/assets/js/landing.js',
-        array('jquery'),
-        file_exists($js_path) ? filemtime($js_path) : CHILD_THEME_VERSION,
-        true
-    );
+    if (file_exists($js_path)) {
+        wp_enqueue_script(
+            'hotel-landing',
+            get_stylesheet_directory_uri() . '/assets/js/landing.js',
+            array('jquery'),
+            filemtime($js_path),
+            true
+        );
+    }
 }
 //Cho phép upload ảnh định dạng Svg
 add_filter('upload_mimes', 'caia_mime_types', 1, 1);
@@ -149,6 +143,8 @@ function caia_add_font_website(){
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 	<?php
 }
 

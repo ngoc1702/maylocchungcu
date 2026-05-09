@@ -385,6 +385,7 @@ $("").slick({
 	});	
 });
 </script>
+
 <script>
 jQuery(document).ready( function($){
 	$(".content .comment-form #submit").click(function(){
@@ -422,32 +423,33 @@ jQuery(document).ready( function($){
 });
 </script>
 
+
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const faqItems = document.querySelectorAll('.faq-item');
+(function ($) {
+    'use strict';
 
-    // đóng tất cả khi reload
-    faqItems.forEach(function(item) {
-        item.classList.remove('active');
-    });
+    $(function () {
+        $('.hotel-landing a[href^="#"]').on('click', function (event) {
+            var target = $(this).attr('href');
 
-    faqItems.forEach(function(item) {
-        const button = item.querySelector('.faq-question');
+            if (!target || target === '#' || !$(target).length) {
+                return;
+            }
 
-        button.addEventListener('click', function() {
-            const isActive = item.classList.contains('active');
+            event.preventDefault();
 
-            faqItems.forEach(function(otherItem) {
-                otherItem.classList.remove('active');
-            });
+            $('html, body').animate({
+                scrollTop: $(target).offset().top - 24
+            }, 500);
+        });
 
-            if (!isActive) {
-                item.classList.add('active');
+        $('.hotel-footer__newsletter form').on('submit', function (event) {
+            if ($(this).attr('action') === '#') {
+                event.preventDefault();
             }
         });
     });
-});
+})(jQuery);
 </script>
-
 <?php
 }

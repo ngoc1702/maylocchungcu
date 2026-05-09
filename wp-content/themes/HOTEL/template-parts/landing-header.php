@@ -17,8 +17,13 @@ $booking_button = hotel_landing_link(
             <?php if ($logo_url) : ?>
                 <img src="<?php echo esc_url($logo_url); ?>" alt="<?php echo esc_attr(hotel_landing_image_alt($logo, $brand_name)); ?>">
             <?php else : ?>
-                <span class="hotel-brand__name"><?php echo esc_html($brand_name); ?></span>
-                <span class="hotel-brand__subtitle"><?php echo esc_html($brand_subtitle); ?></span>
+                <span class="hotel-brand__mark" aria-hidden="true"><span></span><span></span></span>
+                <span class="hotel-brand__text">
+                    <span class="hotel-brand__name"><?php echo esc_html($brand_name); ?></span>
+                    <?php if ($brand_subtitle) : ?>
+                        <span class="hotel-brand__subtitle"><?php echo esc_html($brand_subtitle); ?></span>
+                    <?php endif; ?>
+                </span>
             <?php endif; ?>
         </a>
 
@@ -39,6 +44,7 @@ $booking_button = hotel_landing_link(
 
         <?php if (!empty($booking_button['title'])) : ?>
             <a class="hotel-booking-btn" href="<?php echo esc_url($booking_button['url']); ?>"<?php echo $booking_button['target'] ? ' target="' . esc_attr($booking_button['target']) . '"' : ''; ?>>
+                <i class="fa-regular fa-calendar-check" aria-hidden="true"></i>
                 <?php echo esc_html($booking_button['title']); ?>
             </a>
         <?php endif; ?>

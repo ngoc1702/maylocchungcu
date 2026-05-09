@@ -136,6 +136,83 @@ if (!function_exists('hotel_landing_default')) {
                     array('label' => 'Chính sách bảo mật', 'url' => '#'),
                     array('label' => 'Điều khoản sử dụng', 'url' => '#'),
                 ),
+                'hotel_brand_name' => 'LARITA',
+                'hotel_brand_subtitle' => 'Luxury Hotel',
+                'hotel_booking_button' => array('title' => 'Reservation', 'url' => '#booking', 'target' => ''),
+                'hotel_nav_items' => array(
+                    array('label' => 'Home', 'url' => '#top'),
+                    array('label' => 'Rooms & Suites', 'url' => '#hang-phong'),
+                    array('label' => 'Explore Larita', 'url' => '#gioi-thieu'),
+                    array('label' => 'News & Offers', 'url' => '#uu-dai'),
+                    array('label' => 'Contact', 'url' => '#lien-he'),
+                ),
+                'hotel_hero_title' => 'LARITA LUXURY HOTEL',
+                'hotel_hero_description' => 'Located in the heart of the city, this luxurious, modern hotel offers top-notch amenities for a perfect stay.',
+                'hotel_hero_button' => array('title' => 'Explore', 'url' => '#gioi-thieu', 'target' => ''),
+                'hotel_hero_rating' => '5 star hotel',
+                'hotel_hero_since_label' => 'Since 1970 - 54 years of operation',
+                'hotel_hero_story_button' => array('title' => 'Larita story', 'url' => '#gioi-thieu', 'target' => ''),
+                'hotel_hero_booking_stat' => '+6.4K Bookings',
+                'hotel_hero_review_stat' => '4.9/5 - 3.5K Reviews',
+                'hotel_quick_features' => array(
+                    array('icon_class' => 'fa-solid fa-location-dot', 'title' => 'Located in the heart of the city', 'description' => 'Ideally located in the city heart for easy access and convenience.'),
+                    array('icon_class' => 'fa-solid fa-bath', 'title' => 'Luxurious, modern, and comfortable', 'description' => 'Experience a modern and fully equipped space for comfort.'),
+                    array('icon_class' => 'fa-solid fa-bell-concierge', 'title' => 'Friendly and welcoming staff', 'description' => 'Our friendly staff ensure a delightful stay every time.'),
+                    array('icon_class' => 'fa-solid fa-sack-dollar', 'title' => 'Best prices and great offers', 'description' => 'Enjoy unbeatable prices with fantastic offers tailored for you.'),
+                ),
+                'hotel_intro_eyebrow' => 'Welcome to Larita',
+                'hotel_intro_title' => 'Luxury hotel in the heart of the city.',
+                'hotel_intro_description' => 'Larita Luxury Hotel, in the heart of the city, offers over 500 modern, luxurious rooms. Enjoy premium facilities, perfect for relaxation and indulgence. Our friendly staff ensures a seamless, personalized experience with stunning city views.',
+                'hotel_intro_button' => array('title' => 'Read more', 'url' => '#gioi-thieu', 'target' => ''),
+                'hotel_intro_images' => array(),
+                'hotel_intro_reviews' => array(
+                    array('logo_text' => 'B.', 'rating' => '4.9/5', 'label' => 'Excellent', 'description' => '3.5K Reviews on Booking'),
+                    array('logo_text' => 'a.', 'rating' => '5/5', 'label' => 'Excellent', 'description' => '4.1K Reviews on Agoda'),
+                    array('logo_text' => 'OO', 'rating' => '4.8/5', 'label' => 'Good', 'description' => '2.4K Reviews on Tripadvisor'),
+                ),
+                'hotel_rooms_eyebrow' => 'Exquisite and luxurious',
+                'hotel_rooms_title' => 'Room and suite collection',
+                'hotel_rooms' => array(
+                    array(
+                        'title' => 'Standard room',
+                        'description' => 'Cozy and modern, this room offers essential amenities for a comfortable stay, perfect for solo travelers or couples seeking relaxation.',
+                        'price' => '210',
+                        'price_note' => '/night',
+                        'facts' => array(
+                            array('icon_class' => 'fa-regular fa-object-group', 'label' => 'Room size 28 m2'),
+                            array('icon_class' => 'fa-solid fa-city', 'label' => 'Street view'),
+                            array('icon_class' => 'fa-solid fa-bed', 'label' => '1 king bed'),
+                            array('icon_class' => 'fa-solid fa-ban-smoking', 'label' => 'Smoking - no'),
+                            array('icon_class' => 'fa-solid fa-users', 'label' => '2 adults - 1 child'),
+                            array('icon_class' => 'fa-solid fa-mug-saucer', 'label' => 'Breakfast - yes'),
+                        ),
+                        'link' => array('title' => 'View room', 'url' => '#booking', 'target' => ''),
+                    ),
+                ),
+                'hotel_room_price' => '210',
+                'hotel_room_price_note' => '/night',
+                'hotel_room_booking_button' => array('title' => 'Book now', 'url' => '#booking', 'target' => ''),
+                'hotel_room_facts' => array(
+                    array('icon_class' => 'fa-regular fa-object-group', 'label' => 'Room size 28 m2'),
+                    array('icon_class' => 'fa-solid fa-city', 'label' => 'Street view'),
+                    array('icon_class' => 'fa-solid fa-bed', 'label' => '1 king bed'),
+                    array('icon_class' => 'fa-solid fa-ban-smoking', 'label' => 'Smoking - no'),
+                    array('icon_class' => 'fa-solid fa-users', 'label' => '2 adults - 1 child'),
+                    array('icon_class' => 'fa-solid fa-mug-saucer', 'label' => 'Breakfast - yes'),
+                ),
+                'hotel_amenities_eyebrow' => 'Modern and comfortable',
+                'hotel_amenities_title' => 'Facilities and amenities',
+                'hotel_amenities' => array(
+                    array('icon_class' => 'fa-solid fa-wifi', 'title' => 'High Speed Wifi', 'description' => 'Enjoy seamless, high-speed internet access throughout the hotel.'),
+                    array('icon_class' => 'fa-solid fa-square-parking', 'title' => 'Parking Space', 'description' => 'Ample and secure parking space provided for all hotel guests.'),
+                    array('icon_class' => 'fa-solid fa-utensils', 'title' => 'Restaurant & Bar', 'description' => 'Savor gourmet dishes and cocktails at our elegant restaurant and bar.'),
+                    array('icon_class' => 'fa-solid fa-spa', 'title' => 'Spa Center', 'description' => 'Indulge in relaxing and rejuvenating treatments at our spa.'),
+                    array('icon_class' => 'fa-solid fa-dumbbell', 'title' => 'Fitness Center', 'description' => 'Stay active with state-of-the-art fitness equipment in our modern gym.'),
+                    array('icon_class' => 'fa-solid fa-person-swimming', 'title' => 'Swimming Pool', 'description' => 'Refresh and unwind in our pristine outdoor swimming pool.'),
+                ),
+                'hotel_video_eyebrow' => 'Hotel video',
+                'hotel_video_title' => 'Explore Larita Luxury Hotel',
+                'hotel_video_link' => array('title' => 'Play hotel video', 'url' => '#', 'target' => ''),
             );
         }
 
@@ -309,22 +386,7 @@ if (!function_exists('hotel_landing_register_group')) {
 }
 
 add_action('acf/init', function () {
-    if (function_exists('acf_add_options_page')) {
-        acf_add_options_page(array(
-            'page_title' => 'Landing khách sạn',
-            'menu_title' => 'Landing khách sạn',
-            'menu_slug' => 'hotel-landing',
-            'capability' => 'edit_posts',
-            'redirect' => false,
-            'position' => 30,
-            'icon_url' => 'dashicons-building',
-            'post_id' => 'option',
-        ));
-    }
-
-    if (!function_exists('acf_add_local_field_group')) {
-        return;
-    }
+  
 
     hotel_landing_register_group('group_hotel_landing_header', 'Landing - Header', array(
         hotel_landing_acf_image('field_hotel_logo', 'Logo', 'hotel_logo'),
@@ -400,6 +462,20 @@ add_action('acf/init', function () {
                 hotel_landing_acf_image('field_hotel_room_image', 'Ảnh phòng', 'image'),
                 hotel_landing_acf_text('field_hotel_room_title', 'Tên phòng', 'title'),
                 hotel_landing_acf_text('field_hotel_room_description', 'Mô tả', 'description', '', 'textarea'),
+                hotel_landing_acf_text('field_hotel_room_price', 'Price', 'price', hotel_landing_default('hotel_room_price')),
+                hotel_landing_acf_text('field_hotel_room_price_note', 'Price note', 'price_note', hotel_landing_default('hotel_room_price_note')),
+                array(
+                    'key' => 'field_hotel_room_facts',
+                    'label' => 'Room facts',
+                    'name' => 'facts',
+                    'type' => 'repeater',
+                    'layout' => 'table',
+                    'button_label' => 'Add fact',
+                    'sub_fields' => array(
+                        hotel_landing_acf_text('field_hotel_room_fact_icon_class', 'FontAwesome class', 'icon_class', 'fa-regular fa-circle-check'),
+                        hotel_landing_acf_text('field_hotel_room_fact_label', 'Label', 'label'),
+                    ),
+                ),
                 hotel_landing_acf_link('field_hotel_room_link', 'Link chi tiết', 'link'),
             ),
         ),
@@ -488,6 +564,49 @@ add_action('acf/init', function () {
         ),
     ));
 
+    hotel_landing_register_group('group_hotel_landing_larita_extras', 'Landing - Larita Layout Extras', array(
+        hotel_landing_acf_text('field_hotel_hero_rating', 'Hero rating text', 'hotel_hero_rating', hotel_landing_default('hotel_hero_rating')),
+        hotel_landing_acf_text('field_hotel_hero_since_label', 'Hero since label', 'hotel_hero_since_label', hotel_landing_default('hotel_hero_since_label')),
+        hotel_landing_acf_link('field_hotel_hero_story_button', 'Hero story button', 'hotel_hero_story_button'),
+        hotel_landing_acf_text('field_hotel_hero_booking_stat', 'Hero booking stat', 'hotel_hero_booking_stat', hotel_landing_default('hotel_hero_booking_stat')),
+        hotel_landing_acf_text('field_hotel_hero_review_stat', 'Hero review stat', 'hotel_hero_review_stat', hotel_landing_default('hotel_hero_review_stat')),
+        hotel_landing_acf_text('field_hotel_intro_eyebrow', 'Intro eyebrow', 'hotel_intro_eyebrow', hotel_landing_default('hotel_intro_eyebrow')),
+        hotel_landing_acf_link('field_hotel_intro_button', 'Intro button', 'hotel_intro_button'),
+        array(
+            'key' => 'field_hotel_intro_images',
+            'label' => 'Intro images',
+            'name' => 'hotel_intro_images',
+            'type' => 'repeater',
+            'layout' => 'row',
+            'button_label' => 'Add image',
+            'sub_fields' => array(
+                hotel_landing_acf_image('field_hotel_intro_image_item', 'Image', 'image'),
+            ),
+        ),
+        array(
+            'key' => 'field_hotel_intro_reviews',
+            'label' => 'Intro review summaries',
+            'name' => 'hotel_intro_reviews',
+            'type' => 'repeater',
+            'layout' => 'row',
+            'button_label' => 'Add review',
+            'sub_fields' => array(
+                hotel_landing_acf_image('field_hotel_intro_review_logo', 'Logo image', 'logo'),
+                hotel_landing_acf_text('field_hotel_intro_review_logo_text', 'Logo text fallback', 'logo_text'),
+                hotel_landing_acf_text('field_hotel_intro_review_rating', 'Rating', 'rating'),
+                hotel_landing_acf_text('field_hotel_intro_review_label', 'Label', 'label'),
+                hotel_landing_acf_text('field_hotel_intro_review_description', 'Description', 'description'),
+            ),
+        ),
+        hotel_landing_acf_text('field_hotel_rooms_eyebrow', 'Rooms eyebrow', 'hotel_rooms_eyebrow', hotel_landing_default('hotel_rooms_eyebrow')),
+        hotel_landing_acf_link('field_hotel_room_booking_button', 'Room booking button', 'hotel_room_booking_button'),
+        hotel_landing_acf_text('field_hotel_amenities_eyebrow', 'Amenities eyebrow', 'hotel_amenities_eyebrow', hotel_landing_default('hotel_amenities_eyebrow')),
+        hotel_landing_acf_image('field_hotel_video_background', 'Video background', 'hotel_video_background'),
+        hotel_landing_acf_text('field_hotel_video_eyebrow', 'Video eyebrow', 'hotel_video_eyebrow', hotel_landing_default('hotel_video_eyebrow')),
+        hotel_landing_acf_text('field_hotel_video_title', 'Video title', 'hotel_video_title', hotel_landing_default('hotel_video_title')),
+        hotel_landing_acf_link('field_hotel_video_link', 'Video link', 'hotel_video_link'),
+    ));
+
     hotel_landing_register_group('group_hotel_landing_footer', 'Landing - Footer', array(
         hotel_landing_acf_image('field_hotel_footer_logo', 'Logo footer', 'hotel_footer_logo'),
         hotel_landing_acf_text('field_hotel_footer_description', 'Mô tả', 'hotel_footer_description', hotel_landing_default('hotel_footer_description'), 'textarea'),
@@ -558,9 +677,7 @@ if (!function_exists('hotel_landing_render_parts')) {
         get_template_part('template-parts/hotel-intro');
         get_template_part('template-parts/featured-rooms');
         get_template_part('template-parts/hotel-amenities');
-        get_template_part('template-parts/dining-section');
-        get_template_part('template-parts/offers-section');
-        get_template_part('template-parts/testimonials');
+        get_template_part('template-parts/video-section');
         get_template_part('template-parts/landing-footer');
     }
 }

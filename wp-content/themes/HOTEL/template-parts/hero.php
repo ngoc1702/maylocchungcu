@@ -1,6 +1,7 @@
 <?php
 $hero_background = hotel_landing_get_field('hotel_hero_background');
 $hero_title = hotel_landing_get_field('hotel_hero_title', hotel_landing_default('hotel_hero_title'));
+$hero_subtitle = hotel_landing_get_field('hotel_hero_script_title', hotel_landing_default('hotel_hero_script_title'));
 $hero_description = hotel_landing_get_field('hotel_hero_description', hotel_landing_default('hotel_hero_description'));
 $hero_button = hotel_landing_link(
     hotel_landing_get_field('hotel_hero_button', hotel_landing_default('hotel_hero_button')),
@@ -24,9 +25,7 @@ $hero_style = $hero_background_url
 ?>
 
 <section class="hotel-hero" id="top"<?php echo $hero_style; ?>>
-    <button class="hotel-hero__arrow hotel-hero__arrow--prev" type="button" aria-label="Previous slide">
-        <span aria-hidden="true">&lsaquo;</span>
-    </button>
+
 
     <div class="hotel-container hotel-hero__inner">
         <div class="hotel-hero__content">
@@ -40,22 +39,24 @@ $hero_style = $hero_background_url
                 <h1 class="hotel-hero__title"><?php echo nl2br(esc_html($hero_title)); ?></h1>
             <?php endif; ?>
 
-            <?php if ($hero_description) : ?>
-                <p class="hotel-hero__description"><?php echo esc_html($hero_description); ?></p>
+            <?php if ($hero_subtitle) : ?>
+                <p class="hotel-hero__subtitle"><?php echo esc_html($hero_subtitle); ?></p>
             <?php endif; ?>
+
+            <!-- <?php if ($hero_description) : ?>
+                <p class="hotel-hero__description"><?php echo esc_html($hero_description); ?></p>
+            <?php endif; ?> -->
 
             <?php if (!empty($hero_button['title'])) : ?>
                 <a class="hotel-hero__explore" href="<?php echo esc_url($hero_button['url']); ?>"<?php echo $hero_button['target'] ? ' target="' . esc_attr($hero_button['target']) . '"' : ''; ?>>
                     <?php echo esc_html($hero_button['title']); ?>
-                    <span aria-hidden="true">&rarr;</span>
+                    <!-- <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i> -->
                 </a>
             <?php endif; ?>
         </div>
     </div>
 
-    <button class="hotel-hero__arrow hotel-hero__arrow--next" type="button" aria-label="Next slide">
-        <span aria-hidden="true">&rsaquo;</span>
-    </button>
+
 
     <div class="hotel-hero__scroll" aria-hidden="true">
         <span>Scroll</span>

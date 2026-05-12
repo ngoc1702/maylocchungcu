@@ -10,7 +10,6 @@ $intro_button = hotel_landing_link(
 $intro_image = hotel_landing_get_field('hotel_intro_image', hotel_landing_default('hotel_intro_image'));
 $intro_image_url = hotel_landing_image_url($intro_image);
 $intro_image_alt = hotel_landing_image_alt($intro_image, $intro_title);
-$intro_reviews = hotel_landing_get_field('hotel_intro_reviews', hotel_landing_default('hotel_intro_reviews'));
 ?>
 
 <section class="hotel-section hotel-intro" id="gioi-thieu">
@@ -48,40 +47,5 @@ $intro_reviews = hotel_landing_get_field('hotel_intro_reviews', hotel_landing_de
             </div>
         </div>
 
-        <?php if (!empty($intro_reviews) && is_array($intro_reviews)) : ?>
-            <div class="hotel-review-strip" aria-label="Review summaries">
-                <?php foreach ($intro_reviews as $review) :
-                    $logo = !empty($review['logo']) ? $review['logo'] : null;
-                    $logo_url = hotel_landing_image_url($logo);
-                    $logo_text = !empty($review['logo_text']) ? $review['logo_text'] : '';
-                    $rating = !empty($review['rating']) ? $review['rating'] : '';
-                    $label = !empty($review['label']) ? $review['label'] : '';
-                    $description = !empty($review['description']) ? $review['description'] : '';
-                    ?>
-                    <article class="hotel-review-summary">
-                        <div class="hotel-review-summary__logo">
-                            <?php if ($logo_url) : ?>
-                                <img src="<?php echo esc_url($logo_url); ?>" alt="<?php echo esc_attr(hotel_landing_image_alt($logo, $logo_text)); ?>">
-                            <?php else : ?>
-                                <span><?php echo esc_html($logo_text); ?></span>
-                            <?php endif; ?>
-                        </div>
-                        <div>
-                            <?php if ($rating || $label) : ?>
-                                <strong>
-                                    <?php echo esc_html($rating); ?>
-                                    <?php if ($label) : ?>
-                                        <span>&#9733; <?php echo esc_html($label); ?></span>
-                                    <?php endif; ?>
-                                </strong>
-                            <?php endif; ?>
-                            <?php if ($description) : ?>
-                                <p><?php echo esc_html($description); ?></p>
-                            <?php endif; ?>
-                        </div>
-                    </article>
-                <?php endforeach; ?>
-            </div>
-        <?php endif; ?>
     </div>
 </section>

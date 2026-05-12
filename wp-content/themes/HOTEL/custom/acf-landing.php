@@ -52,7 +52,7 @@ if (!function_exists('hotel_landing_default')) {
                     array('icon_class' => 'fa-regular fa-star', 'title' => 'Trải nghiệm đẳng cấp', 'description' => 'Tận hưởng kỳ nghỉ hoàn hảo với tiện ích cao cấp và dịch vụ chuẩn 4 sao.'),
                 ),
                 'hotel_rooms_title' => 'Các hạng phòng nổi bật',
-                'hotel_rooms_button' => array('title' => 'Xem tất cả hạng phòng', 'url' => '#booking', 'target' => ''),
+                'hotel_rooms_description' => 'Khám phá những hạng phòng được thiết kế tinh tế, đầy đủ tiện nghi và phù hợp cho mọi nhu cầu lưu trú.',
                 'hotel_rooms' => array(
                     array(
                         'title' => 'Classic One-Bedroom',
@@ -85,18 +85,24 @@ if (!function_exists('hotel_landing_default')) {
                     array('icon_class' => 'fa-solid fa-car', 'title' => 'Đưa đón sân bay', 'description' => 'Dịch vụ đưa đón chuyên nghiệp'),
                     array('icon_class' => 'fa-solid fa-square-parking', 'title' => 'Bãi đỗ xe', 'description' => 'An toàn, rộng rãi, miễn phí'),
                 ),
+                'hotel_dining_eyebrow' => 'Ẩm thực & trải nghiệm',
                 'hotel_dining_title' => 'Nhà hàng & Ẩm thực',
-                'hotel_dining_button' => array('title' => 'Khám phá ẩm thực', 'url' => '#booking', 'target' => ''),
+                'hotel_dining_description' => 'Khám phá không gian ẩm thực tinh tế, dịch vụ chu đáo và những trải nghiệm thư giãn được chuẩn bị riêng cho kỳ nghỉ của bạn.',
+                'hotel_dining_button' => array('title' => 'Booking now', 'url' => '#booking', 'target' => ''),
                 'hotel_dining_items' => array(
                     array('title' => 'Buffet sáng', 'description' => 'Đa dạng món Á - Âu, nguyên liệu tươi ngon'),
                     array('title' => 'Nhà hàng', 'description' => 'Thực đơn phong phú, không gian sang trọng'),
                     array('title' => 'Sky Bar', 'description' => 'Thưởng thức đồ uống cùng view thành phố'),
+                    array('title' => 'Private Dining', 'description' => 'Không gian riêng tư cho bữa tối thân mật và các dịp đặc biệt'),
                 ),
-                'hotel_offers_title' => 'Ưu đãi hấp dẫn',
+                'hotel_offers_eyebrow' => 'Ưu đãi tháng này',
+                'hotel_offers_title' => 'Ưu đãi dành cho khách hàng',
+                'hotel_offers_description' => 'Đừng bỏ lỡ cơ hội tận hưởng kỳ nghỉ lý tưởng với mức giá ưu đãi nhất.',
+                'hotel_offers_button' => array('title' => 'Xem thêm', 'url' => '#booking', 'target' => ''),
                 'hotel_offers' => array(
-                    array('eyebrow' => 'Early bird', 'title' => 'Giảm 15%', 'description' => 'Đặt phòng trước 15 ngày nhận ngay ưu đãi hấp dẫn', 'link' => array('title' => 'Đặt ngay', 'url' => '#booking', 'target' => '')),
-                    array('eyebrow' => 'Stay longer', 'title' => 'Giảm 20%', 'description' => 'Lưu trú từ 3 đêm trở lên, ưu đãi áp dụng cho mọi hạng phòng', 'link' => array('title' => 'Đặt ngay', 'url' => '#booking', 'target' => '')),
-                    array('eyebrow' => 'Honeymoon package', 'title' => 'Giảm 25%', 'description' => 'Dành riêng cho các cặp đôi tận hưởng kỳ nghỉ lãng mạn', 'link' => array('title' => 'Đặt ngay', 'url' => '#booking', 'target' => '')),
+                    array('eyebrow' => 'Early Bird', 'title' => 'Giảm 15%', 'description' => 'Đặt phòng trước 15 ngày để nhận ưu đãi hấp dẫn.', 'link' => array('title' => 'Booking now', 'url' => '#booking', 'target' => '')),
+                    array('eyebrow' => 'Stay longer', 'title' => 'Giảm 10%', 'description' => 'Dành cho khách lưu trú từ 3 đêm trở lên. Ưu đãi áp dụng cho mọi hạng phòng.', 'link' => array('title' => 'Booking now', 'url' => '#booking', 'target' => '')),
+                    array('eyebrow' => 'Honeymoon Package', 'title' => 'Giảm ngay 15%', 'description' => 'Dành cho khách lưu trú đặt gói trang trí honeymoon. Tận hưởng kỳ nghỉ lãng mạn.', 'link' => array('title' => 'Booking CTA', 'url' => '#booking', 'target' => '')),
                 ),
                 'hotel_testimonials_title' => 'Đánh giá khách hàng',
                 'hotel_testimonials' => array(
@@ -165,39 +171,37 @@ if (!function_exists('hotel_landing_default')) {
                 'hotel_intro_description' => 'Larita Luxury Hotel, in the heart of the city, offers over 500 modern, luxurious rooms. Enjoy premium facilities, perfect for relaxation and indulgence. Our friendly staff ensures a seamless, personalized experience with stunning city views.',
                 'hotel_intro_button' => array('title' => 'Read more', 'url' => '#gioi-thieu', 'target' => ''),
                 'hotel_intro_image' => array(),
+                'hotel_reviews_title' => 'Đánh giá khách hàng',
                 'hotel_intro_reviews' => array(
-                    array('logo_text' => 'B.', 'rating' => '4.9/5', 'label' => 'Excellent', 'description' => '3.5K Reviews on Booking'),
-                    array('logo_text' => 'a.', 'rating' => '5/5', 'label' => 'Excellent', 'description' => '4.1K Reviews on Agoda'),
-                    array('logo_text' => 'OO', 'rating' => '4.8/5', 'label' => 'Good', 'description' => '2.4K Reviews on Tripadvisor'),
+                    array('logo_text' => 'B.', 'rating' => '4.8/5', 'label' => 'Excellent', 'description' => 'Booking', 'url' => '#'),
+                    array('logo_text' => 'a.', 'rating' => '4.7/5', 'label' => 'Excellent', 'description' => 'Agoda', 'url' => '#'),
+                    array('logo_text' => 'T.', 'rating' => '4.8/5', 'label' => 'Excellent', 'description' => 'Traveloka', 'url' => '#'),
+                    array('logo_text' => 'OO', 'rating' => '4.7/5', 'label' => 'Good', 'description' => 'TripAdvisor', 'url' => '#'),
                 ),
                 'hotel_rooms_eyebrow' => 'Exquisite and luxurious',
                 'hotel_rooms_title' => 'Room and suite collection',
+                'hotel_rooms_description' => 'Choose from refined rooms and suites designed for comfort, privacy, and memorable city stays.',
                 'hotel_rooms' => array(
                     array(
                         'title' => 'Standard room',
                         'description' => 'Cozy and modern, this room offers essential amenities for a comfortable stay, perfect for solo travelers or couples seeking relaxation.',
-                        'price' => '210',
-                        'price_note' => '/night',
+                        'guest_count' => '2 adults - 1 child',
                         'facts' => array(
                             array('icon_class' => 'fa-regular fa-object-group', 'label' => 'Room size 28 m2'),
                             array('icon_class' => 'fa-solid fa-city', 'label' => 'Street view'),
                             array('icon_class' => 'fa-solid fa-bed', 'label' => '1 king bed'),
                             array('icon_class' => 'fa-solid fa-ban-smoking', 'label' => 'Smoking - no'),
-                            array('icon_class' => 'fa-solid fa-users', 'label' => '2 adults - 1 child'),
                             array('icon_class' => 'fa-solid fa-mug-saucer', 'label' => 'Breakfast - yes'),
                         ),
-                        'link' => array('title' => 'View room', 'url' => '#booking', 'target' => ''),
+                        'link' => array('title' => 'Booking now', 'url' => '#booking', 'target' => ''),
                     ),
                 ),
-                'hotel_room_price' => '210',
-                'hotel_room_price_note' => '/night',
-                'hotel_room_booking_button' => array('title' => 'Book now', 'url' => '#booking', 'target' => ''),
+                'hotel_room_booking_button' => array('title' => 'Booking now', 'url' => '#booking', 'target' => ''),
                 'hotel_room_facts' => array(
                     array('icon_class' => 'fa-regular fa-object-group', 'label' => 'Room size 28 m2'),
                     array('icon_class' => 'fa-solid fa-city', 'label' => 'Street view'),
                     array('icon_class' => 'fa-solid fa-bed', 'label' => '1 king bed'),
                     array('icon_class' => 'fa-solid fa-ban-smoking', 'label' => 'Smoking - no'),
-                    array('icon_class' => 'fa-solid fa-users', 'label' => '2 adults - 1 child'),
                     array('icon_class' => 'fa-solid fa-mug-saucer', 'label' => 'Breakfast - yes'),
                 ),
                 'hotel_amenities_eyebrow' => 'Modern and comfortable',
@@ -435,26 +439,13 @@ add_action('acf/init', function () {
         hotel_landing_acf_text('field_hotel_intro_title', 'Tiêu đề', 'hotel_intro_title', hotel_landing_default('hotel_intro_title')),
         hotel_landing_acf_text('field_hotel_intro_description', 'Mô tả', 'hotel_intro_description', hotel_landing_default('hotel_intro_description'), 'textarea'),    
         hotel_landing_acf_link('field_hotel_intro_button', 'Nút liên kết', 'hotel_intro_button'),
-        array(
-            'key' => 'field_hotel_intro_items',
-            'label' => 'Lợi thế nổi bật',
-            'name' => 'hotel_intro_items',
-            'type' => 'repeater',
-            'layout' => 'row',
-            'button_label' => 'Thêm lợi thế',
-            'sub_fields' => array(
-                hotel_landing_acf_image('field_hotel_intro_item_icon', 'Icon ảnh', 'icon'),
-                hotel_landing_acf_text('field_hotel_intro_item_icon_class', 'FontAwesome class', 'icon_class', 'fa-solid fa-star'),
-                hotel_landing_acf_text('field_hotel_intro_item_title', 'Tiêu đề', 'title'),
-                hotel_landing_acf_text('field_hotel_intro_item_description', 'Mô tả', 'description', '', 'textarea'),
-            ),
-        ),
+      
     ));
 
     hotel_landing_register_group('group_hotel_landing_rooms', 'Landing - Hạng phòng', array(
         hotel_landing_acf_text('field_hotel_rooms_eyebrow', 'Tiêu đề phụ', 'hotel_rooms_eyebrow', hotel_landing_default('hotel_rooms_eyebrow')),
         hotel_landing_acf_text('field_hotel_rooms_title', 'Tiêu đề', 'hotel_rooms_title', hotel_landing_default('hotel_rooms_title')),
-        hotel_landing_acf_link('field_hotel_rooms_button', 'Nút xem tất cả', 'hotel_rooms_button'),
+        hotel_landing_acf_text('field_hotel_rooms_description', 'Mô tả', 'hotel_rooms_description', hotel_landing_default('hotel_rooms_description'), 'textarea'),
         array(
             'key' => 'field_hotel_rooms',
             'label' => 'Danh sách hạng phòng',
@@ -466,8 +457,7 @@ add_action('acf/init', function () {
                 hotel_landing_acf_image('field_hotel_room_image', 'Ảnh phòng', 'image'),
                 hotel_landing_acf_text('field_hotel_room_title', 'Tên phòng', 'title'),
                 hotel_landing_acf_text('field_hotel_room_description', 'Mô tả', 'description', '', 'textarea'),
-                hotel_landing_acf_text('field_hotel_room_price', 'Price', 'price', hotel_landing_default('hotel_room_price')),
-                hotel_landing_acf_text('field_hotel_room_price_note', 'Price note', 'price_note', hotel_landing_default('hotel_room_price_note')),
+                hotel_landing_acf_text('field_hotel_room_guest_count', 'Số người/phòng', 'guest_count', '2 adults - 1 child'),
                 array(
                     'key' => 'field_hotel_room_facts',
                     'label' => 'Room facts',
@@ -505,26 +495,30 @@ add_action('acf/init', function () {
     ));
 
     hotel_landing_register_group('group_hotel_landing_dining', 'Landing - Nhà hàng & Ẩm thực', array(
+        hotel_landing_acf_text('field_hotel_dining_eyebrow', 'Tiêu đề phụ', 'hotel_dining_eyebrow', hotel_landing_default('hotel_dining_eyebrow')),
         hotel_landing_acf_text('field_hotel_dining_title', 'Tiêu đề', 'hotel_dining_title', hotel_landing_default('hotel_dining_title')),
-        hotel_landing_acf_link('field_hotel_dining_button', 'Nút khám phá', 'hotel_dining_button'),
+        hotel_landing_acf_text('field_hotel_dining_description', 'Mô tả', 'hotel_dining_description', hotel_landing_default('hotel_dining_description'), 'textarea'),
+        hotel_landing_acf_link('field_hotel_dining_button', 'Nút booking', 'hotel_dining_button'),
         array(
             'key' => 'field_hotel_dining_items',
             'label' => 'Danh sách không gian ẩm thực',
             'name' => 'hotel_dining_items',
             'type' => 'repeater',
             'layout' => 'row',
+            'max' => 4,
             'button_label' => 'Thêm mục',
             'sub_fields' => array(
                 hotel_landing_acf_image('field_hotel_dining_image', 'Ảnh', 'image'),
                 hotel_landing_acf_text('field_hotel_dining_item_title', 'Tiêu đề', 'title'),
                 hotel_landing_acf_text('field_hotel_dining_item_description', 'Mô tả', 'description', '', 'textarea'),
-                hotel_landing_acf_link('field_hotel_dining_item_link', 'Link', 'link'),
             ),
         ),
     ));
 
     hotel_landing_register_group('group_hotel_landing_offers', 'Landing - Ưu đãi', array(
+        hotel_landing_acf_text('field_hotel_offers_eyebrow', 'Tiêu đề phụ', 'hotel_offers_eyebrow', hotel_landing_default('hotel_offers_eyebrow')),
         hotel_landing_acf_text('field_hotel_offers_title', 'Tiêu đề', 'hotel_offers_title', hotel_landing_default('hotel_offers_title')),
+        hotel_landing_acf_text('field_hotel_offers_description', 'Mô tả', 'hotel_offers_description', hotel_landing_default('hotel_offers_description'), 'textarea'),
         array(
             'key' => 'field_hotel_offers',
             'label' => 'Danh sách ưu đãi',
@@ -543,28 +537,23 @@ add_action('acf/init', function () {
     ));
 
     hotel_landing_register_group('group_hotel_landing_testimonials', 'Landing - Đánh giá', array(
-        hotel_landing_acf_text('field_hotel_testimonials_title', 'Tiêu đề', 'hotel_testimonials_title', hotel_landing_default('hotel_testimonials_title')),
+        hotel_landing_acf_text('field_hotel_reviews_eyebrow', 'Tiêu đề phụ', 'hotel_reviews_eyebrow', hotel_landing_default('hotel_reviews_eyebrow')),
+        hotel_landing_acf_text('field_hotel_reviews_title', 'Tiêu đề đánh giá', 'hotel_reviews_title', hotel_landing_default('hotel_reviews_title')),
+        hotel_landing_acf_text('field_hotel_reviews_description', 'Mô tả', 'hotel_reviews_description', hotel_landing_default('hotel_reviews_description'), 'textarea'),
         array(
-            'key' => 'field_hotel_testimonials',
+            'key' => 'field_hotel_intro_reviews',
             'label' => 'Danh sách đánh giá',
-            'name' => 'hotel_testimonials',
+            'name' => 'hotel_intro_reviews',
             'type' => 'repeater',
             'layout' => 'row',
-            'button_label' => 'Thêm đánh giá',
+            'button_label' => 'Thêm kênh đánh giá',
             'sub_fields' => array(
-                hotel_landing_acf_image('field_hotel_testimonial_avatar', 'Ảnh đại diện', 'avatar'),
-                hotel_landing_acf_text('field_hotel_testimonial_name', 'Tên khách hàng', 'name'),
-                hotel_landing_acf_text('field_hotel_testimonial_location', 'Địa điểm', 'location'),
-                hotel_landing_acf_text('field_hotel_testimonial_comment', 'Nội dung', 'comment', '', 'textarea'),
-                array(
-                    'key' => 'field_hotel_testimonial_rating',
-                    'label' => 'Số sao',
-                    'name' => 'rating',
-                    'type' => 'number',
-                    'default_value' => 5,
-                    'min' => 1,
-                    'max' => 5,
-                ),
+                hotel_landing_acf_image('field_hotel_intro_review_logo', 'Logo OTA', 'logo'),
+                hotel_landing_acf_text('field_hotel_intro_review_logo_text', 'Text logo fallback', 'logo_text'),
+                hotel_landing_acf_text('field_hotel_intro_review_rating', 'Rating', 'rating'),
+                hotel_landing_acf_text('field_hotel_intro_review_label', 'Label', 'label'),
+                hotel_landing_acf_text('field_hotel_intro_review_description', 'Tên kênh OTA', 'description'),
+                hotel_landing_acf_text('field_hotel_intro_review_url', 'Link OTA', 'url', '#'),
             ),
         ),
     ));
@@ -582,21 +571,6 @@ add_action('acf/init', function () {
         hotel_landing_acf_link('field_hotel_hero_story_button', 'Hero story button', 'hotel_hero_story_button'),
         hotel_landing_acf_text('field_hotel_hero_booking_stat', 'Hero booking stat', 'hotel_hero_booking_stat', hotel_landing_default('hotel_hero_booking_stat')),
         hotel_landing_acf_text('field_hotel_hero_review_stat', 'Hero review stat', 'hotel_hero_review_stat', hotel_landing_default('hotel_hero_review_stat')),
-        array(
-            'key' => 'field_hotel_intro_reviews',
-            'label' => 'Intro review summaries',
-            'name' => 'hotel_intro_reviews',
-            'type' => 'repeater',
-            'layout' => 'row',
-            'button_label' => 'Add review',
-            'sub_fields' => array(
-                hotel_landing_acf_image('field_hotel_intro_review_logo', 'Logo image', 'logo'),
-                hotel_landing_acf_text('field_hotel_intro_review_logo_text', 'Logo text fallback', 'logo_text'),
-                hotel_landing_acf_text('field_hotel_intro_review_rating', 'Rating', 'rating'),
-                hotel_landing_acf_text('field_hotel_intro_review_label', 'Label', 'label'),
-                hotel_landing_acf_text('field_hotel_intro_review_description', 'Description', 'description'),
-            ),
-        ),
         hotel_landing_acf_link('field_hotel_room_booking_button', 'Room booking button', 'hotel_room_booking_button'),
     ));
 
@@ -670,6 +644,9 @@ if (!function_exists('hotel_landing_render_parts')) {
         get_template_part('template-parts/hotel-intro');
         get_template_part('template-parts/featured-rooms');
         get_template_part('template-parts/hotel-amenities');
+        get_template_part('template-parts/dining-section');
+        get_template_part('template-parts/offers-section');
+        get_template_part('template-parts/reviews-section');
         get_template_part('template-parts/video-section');
         get_template_part('template-parts/landing-footer');
     }

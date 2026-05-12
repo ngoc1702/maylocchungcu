@@ -18,48 +18,22 @@ document.querySelectorAll('.circle p').forEach(p => {
 
 
 <script>
-	jQuery(document).ready( function($){
 
-
-$('.slide_sp .slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  infinite: true,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slide_sp .slider-nav'
-});
-
-$('.slide_sp .slider-nav').slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  infinite: true,
-  asNavFor: '.slide_sp .slider-for',
-  dots: false,
-  arrows: false,
-  centerMode: false,
-  focusOnSelect: true,
-  responsive: [
-    {
-      breakpoint: 768,  
-      settings: {
-        slidesToShow:3,
-        slidesToScroll: 1,
-      }
-    }
-  ]
-});
-
-});
 
 jQuery(document).ready(function($) {
-  $(".content-banner").slick({
+  var $roomShowcase = $(".hotel-room-showcase");
+
+  if (!$roomShowcase.length || !$.fn.slick || $roomShowcase.hasClass("slick-initialized") || $roomShowcase.children(".hotel-room-card").length < 2) {
+    return;
+  }
+
+  $roomShowcase.slick({
     arrows: true,
     infinite: true,
-    dots: true,
+    dots: false,
     speed: 600,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 8000,
     pauseOnHover: false,
     pauseOnFocus: false,
     slidesToShow: 1,
@@ -70,9 +44,15 @@ jQuery(document).ready(function($) {
 
 
 jQuery(document).ready(function($) {
-  $(".testimonials-slider").slick({
-    arrows: false,
-    dots: true,
+  var $offersTrack = $(".hotel-offers__track");
+
+  if (!$offersTrack.length || !$.fn.slick || $offersTrack.hasClass("slick-initialized") || $offersTrack.children(".hotel-offer-card").length < 2) {
+    return;
+  }
+
+  $offersTrack.slick({
+    arrows: true,
+    dots: false,
     speed: 600,
     autoplay: true,
     autoplaySpeed: 5000,

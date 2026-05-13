@@ -7,7 +7,7 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 include('metabox.php');
 
 // Thêm ACF Landing Page Configuration
-include('acf-landing.php');
+include('water-care-landing.php');
 
 // Thêm caiajs
 include('js/caiajs.php');
@@ -41,8 +41,8 @@ function custom_override_style() {
     wp_enqueue_style($handle, get_stylesheet_uri(), array(), $version);
 }
 
-add_action('wp_enqueue_scripts', 'caia_enqueue_hotel_landing_assets', 120);
-function caia_enqueue_hotel_landing_assets() {
+add_action('wp_enqueue_scripts', 'caia_enqueue_water_care_landing_assets', 120);
+function caia_enqueue_water_care_landing_assets() {
     $is_landing = is_page_template('page-landing.php');
 
     if (!$is_landing && is_singular()) {
@@ -54,13 +54,13 @@ function caia_enqueue_hotel_landing_assets() {
         return;
     }
 
-    $css_path = get_stylesheet_directory() . '/assets/css/landing-air.css';
-    $js_path = get_stylesheet_directory() . '/assets/js/landing.js';
+    $css_path = get_stylesheet_directory() . '/assets/css/water-care-landing.css';
+    $js_path = get_stylesheet_directory() . '/assets/js/water-care-landing.js';
 
     if (file_exists($css_path)) {
         wp_enqueue_style(
-            'air-landing',
-            get_stylesheet_directory_uri() . '/assets/css/landing-air.css',
+            'aquira-water-care-landing',
+            get_stylesheet_directory_uri() . '/assets/css/water-care-landing.css',
             array('caia'),
             filemtime($css_path)
         );
@@ -68,8 +68,8 @@ function caia_enqueue_hotel_landing_assets() {
 
     if (file_exists($js_path)) {
         wp_enqueue_script(
-            'hotel-landing',
-            get_stylesheet_directory_uri() . '/assets/js/landing.js',
+            'aquira-water-care-landing',
+            get_stylesheet_directory_uri() . '/assets/js/water-care-landing.js',
             array('jquery'),
             filemtime($js_path),
             true

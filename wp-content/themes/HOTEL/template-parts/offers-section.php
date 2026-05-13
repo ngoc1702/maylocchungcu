@@ -5,7 +5,7 @@ $offers_description = hotel_landing_get_field('hotel_offers_description', hotel_
 $offers = hotel_landing_get_field('hotel_offers', hotel_landing_default('hotel_offers'));
 ?>
 
-<section class="hotel-section hotel-offers" id="uu-dai">
+<section class="hotel-section hotel-offers" id="uudai">
     <div class="hotel-container">
         <?php if ($offers_eyebrow || $offers_title || $offers_description) : ?>
             <div class="hotel-section-heading hotel-section-heading--offers">

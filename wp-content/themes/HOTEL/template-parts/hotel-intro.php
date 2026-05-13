@@ -12,7 +12,7 @@ $intro_image_url = hotel_landing_image_url($intro_image);
 $intro_image_alt = hotel_landing_image_alt($intro_image, $intro_title);
 ?>
 
-<section class="hotel-section hotel-intro" id="gioi-thieu">
+<section class="hotel-section hotel-intro" id="gioithieu">
     <div class="hotel-container">
         <div class="hotel-intro__layout">
             <div class="hotel-intro__media" aria-label="Hotel intro image">

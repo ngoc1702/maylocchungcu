@@ -411,7 +411,45 @@ jQuery(document).ready( function($){
     $(function () {
         var $videoModal = $('.hotel-video-modal');
         var $videoFrame = $videoModal.find('[data-video-frame]');
+        var $landingHeader = $('.hotel-landing-header');
         var lastVideoTrigger = null;
+
+        function updateHotelHeaderState() {
+            if (!$landingHeader.length) {
+                return;
+            }
+
+            $landingHeader.toggleClass('is-scrolled', $(window).scrollTop() > 10);
+        }
+
+        function getHotelAnchorTarget(hash) {
+            var anchorAliases = {
+                '#gioi-thieu': '#gioithieu',
+                '#gioithieu': '#gioi-thieu',
+                '#hang-phong': '#hangphong',
+                '#hangphong': '#hang-phong',
+                '#tien-ich': '#tienich',
+                '#tienich': '#tien-ich',
+                '#nha-hang': '#nhahang',
+                '#nhahang': '#nha-hang',
+                '#uu-dai': '#uudai',
+                '#uudai': '#uu-dai',
+                '#danh-gia': '#danhgia',
+                '#danhgia': '#danh-gia',
+                '#lien-he': '#lienhe',
+                '#lienhe': '#lien-he'
+            };
+            var $target = $(hash);
+
+            if ($target.length || !anchorAliases[hash]) {
+                return $target;
+            }
+
+            return $(anchorAliases[hash]);
+        }
+
+        updateHotelHeaderState();
+        $(window).on('scroll.hotelLandingHeader resize.hotelLandingHeader', updateHotelHeaderState);
 
         function getHotelVideoEmbed(url) {
             if (!url || url === '#') {
@@ -517,23 +555,25 @@ jQuery(document).ready( function($){
 
         $('.hotel-landing a[href^="#"]').on('click', function (event) {
             var target = $(this).attr('href');
+            var $target;
 
-            if (!target || target === '#' || !$(target).length) {
+            if (!target || target === '#') {
+                return;
+            }
+
+            $target = getHotelAnchorTarget(target);
+
+            if (!$target.length) {
                 return;
             }
 
             event.preventDefault();
 
             $('html, body').animate({
-                scrollTop: $(target).offset().top - 24
+                scrollTop: $target.offset().top - ($landingHeader.length ? $landingHeader.outerHeight() + 12 : 24)
             }, 500);
         });
 
-        $('.hotel-footer__newsletter form').on('submit', function (event) {
-            if ($(this).attr('action') === '#') {
-                event.preventDefault();
-            }
-        });
     });
 })(jQuery);
 </script>

@@ -4,7 +4,7 @@ $amenities_title = hotel_landing_get_field('hotel_amenities_title', hotel_landin
 $amenities = hotel_landing_get_field('hotel_amenities', hotel_landing_default('hotel_amenities'));
 ?>
 
-<section class="hotel-section hotel-amenities" id="tien-ich">
+<section class="hotel-section hotel-amenities" id="tienich">
     <div class="hotel-container">
         <div class="hotel-section-heading hotel-section-heading--amenities">
             <?php if ($amenities_eyebrow) : ?>

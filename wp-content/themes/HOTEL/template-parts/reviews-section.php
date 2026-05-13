@@ -5,7 +5,7 @@ $reviews_description = hotel_landing_get_field('hotel_reviews_description', hote
 $reviews = hotel_landing_get_field('hotel_intro_reviews', hotel_landing_default('hotel_intro_reviews'));
 ?>
 
-<section class="hotel-section hotel-reviews" id="danh-gia">
+<section class="hotel-section hotel-reviews" id="danhgia">
     <div class="hotel-container">
            <div class="hotel-section-heading hotel-section-heading--offers">
         <?php if ($reviews_eyebrow) : ?>

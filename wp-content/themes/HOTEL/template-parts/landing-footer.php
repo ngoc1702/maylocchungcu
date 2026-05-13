@@ -1,17 +1,18 @@
 <?php
 $footer_logo = hotel_landing_get_field('hotel_footer_logo');
+if (!hotel_landing_has_value($footer_logo)) {
+    $footer_logo = hotel_landing_get_field('hotel_logo');
+}
 $footer_logo_url = hotel_landing_image_url($footer_logo);
 $brand_name = hotel_landing_get_field('hotel_brand_name', hotel_landing_default('hotel_brand_name'));
 $brand_subtitle = hotel_landing_get_field('hotel_brand_subtitle', hotel_landing_default('hotel_brand_subtitle'));
 $footer_title = hotel_landing_get_field('hotel_footer_title', hotel_landing_default('hotel_footer_title'));
+$footer_description = hotel_landing_get_field('hotel_footer_description', hotel_landing_default('hotel_footer_description'));
 $contacts = hotel_landing_get_field('hotel_footer_contacts', hotel_landing_default('hotel_footer_contacts'));
+$footer_social_title = hotel_landing_get_field('hotel_footer_social_title', hotel_landing_default('hotel_footer_social_title'));
 $socials = hotel_landing_get_field('hotel_footer_socials', hotel_landing_default('hotel_footer_socials'));
 $footer_map_title = hotel_landing_get_field('hotel_footer_map_title', hotel_landing_default('hotel_footer_map_title'));
 $footer_map_embed = hotel_landing_get_field('hotel_footer_map_embed', hotel_landing_default('hotel_footer_map_embed'));
-$footer_map_image = hotel_landing_get_field('hotel_footer_map_image');
-$footer_map_image_url = hotel_landing_image_url($footer_map_image);
-$footer_map_caption = hotel_landing_get_field('hotel_footer_map_caption', hotel_landing_default('hotel_footer_map_caption'));
-$footer_map_link = hotel_landing_get_field('hotel_footer_map_link', hotel_landing_default('hotel_footer_map_link'));
 $copyright = hotel_landing_get_field('hotel_copyright', hotel_landing_default('hotel_copyright'));
 $policy_links = hotel_landing_get_field('hotel_policy_links', hotel_landing_default('hotel_policy_links'));
 
@@ -32,7 +33,7 @@ if ($footer_map_embed && preg_match('/src=["\']([^"\']+)["\']/', $footer_map_emb
 }
 ?>
 
-<footer class="hotel-footer" id="lien-he">
+<footer class="hotel-footer" id="lienhe">
     <div class="hotel-container">
         <div class="hotel-footer__grid">
             <div class="hotel-footer__brand">
@@ -47,6 +48,10 @@ if ($footer_map_embed && preg_match('/src=["\']([^"\']+)["\']/', $footer_map_emb
 
                 <?php if ($footer_title) : ?>
                     <h3 class="hotel-footer__brand-title"><?php echo esc_html($footer_title); ?></h3>
+                <?php endif; ?>
+
+                <?php if ($footer_description) : ?>
+                    <p class="hotel-footer__description"><?php echo nl2br(esc_html($footer_description)); ?></p>
                 <?php endif; ?>
 
                 <?php if (!empty($contacts) && is_array($contacts)) : ?>
@@ -77,13 +82,21 @@ if ($footer_map_embed && preg_match('/src=["\']([^"\']+)["\']/', $footer_map_emb
             </div>
 
             <div class="hotel-footer__column">
-                <h3>Liên kết social</h3>
+                <?php if ($footer_social_title) : ?>
+                    <h3><?php echo esc_html($footer_social_title); ?></h3>
+                <?php endif; ?>
                 <?php if (!empty($socials) && is_array($socials)) : ?>
                     <ul class="hotel-footer__links hotel-footer__social-list">
                         <?php foreach ($socials as $index => $social) :
+                            $icon = !empty($social['icon']) ? $social['icon'] : null;
+                            $icon_url = hotel_landing_image_url($icon);
                             $icon_class = !empty($social['icon_class']) ? hotel_landing_class_list($social['icon_class']) : '';
                             $label = !empty($social['label']) ? $social['label'] : '';
                             $url = !empty($social['url']) ? $social['url'] : '#';
+
+                            if (!$label && $icon_url) {
+                                $label = hotel_landing_image_alt($icon, '');
+                            }
 
                             if (!$label) {
                                 foreach ($social_icon_labels as $icon_key => $icon_label) {
@@ -104,7 +117,9 @@ if ($footer_map_embed && preg_match('/src=["\']([^"\']+)["\']/', $footer_map_emb
                             ?>
                             <li>
                                 <a href="<?php echo esc_url($url); ?>">
-                                    <?php if ($icon_class) : ?>
+                                    <?php if ($icon_url) : ?>
+                                        <img src="<?php echo esc_url($icon_url); ?>" alt="" aria-hidden="true">
+                                    <?php elseif ($icon_class) : ?>
                                         <i class="<?php echo esc_attr($icon_class); ?>" aria-hidden="true"></i>
                                     <?php endif; ?>
                                     <span><?php echo esc_html($label); ?></span>
@@ -129,22 +144,6 @@ if ($footer_map_embed && preg_match('/src=["\']([^"\']+)["\']/', $footer_map_emb
                             referrerpolicy="no-referrer-when-downgrade"
                             allowfullscreen></iframe>
                     </div>
-                <?php elseif ($footer_map_image_url) : ?>
-                    <?php if ($footer_map_link) : ?>
-                        <a class="hotel-footer__map-frame hotel-footer__map-link" href="<?php echo esc_url($footer_map_link); ?>" target="_blank" rel="noopener">
-                    <?php else : ?>
-                        <div class="hotel-footer__map-frame">
-                    <?php endif; ?>
-                        <img src="<?php echo esc_url($footer_map_image_url); ?>" alt="<?php echo esc_attr(hotel_landing_image_alt($footer_map_image, $footer_map_title)); ?>">
-                    <?php if ($footer_map_link) : ?>
-                        </a>
-                    <?php else : ?>
-                        </div>
-                    <?php endif; ?>
-                <?php endif; ?>
-
-                <?php if ($footer_map_caption) : ?>
-                    <p><?php echo esc_html($footer_map_caption); ?></p>
                 <?php endif; ?>
             </div>
         </div>

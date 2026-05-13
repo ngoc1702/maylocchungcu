@@ -12,7 +12,7 @@ $booking_button = hotel_landing_link(
 $rooms = (!empty($rooms) && is_array($rooms)) ? $rooms : array();
 ?>
 
-<section class="hotel-section hotel-rooms" id="hang-phong">
+<section class="hotel-section hotel-rooms" id="hangphong">
     <div class="hotel-container">
         <div class="hotel-section-heading hotel-section-heading--rooms">
             <?php if ($rooms_eyebrow) : ?>

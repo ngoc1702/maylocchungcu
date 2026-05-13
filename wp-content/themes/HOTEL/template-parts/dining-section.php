@@ -10,7 +10,7 @@ $dining_button = hotel_landing_link(
 );
 ?>
 
-<section class="hotel-section hotel-dining" id="nha-hang">
+<section class="hotel-section hotel-dining" id="nhahang">
     <div class="hotel-container">
         <?php if ($dining_eyebrow || $dining_title || $dining_description || !empty($dining_button['title'])) : ?>
             <div class="hotel-section-heading hotel-section-heading--dining">

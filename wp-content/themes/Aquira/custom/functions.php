@@ -54,7 +54,17 @@ function caia_enqueue_hotel_landing_assets() {
         return;
     }
 
+    $css_path = get_stylesheet_directory() . '/assets/css/landing-air.css';
     $js_path = get_stylesheet_directory() . '/assets/js/landing.js';
+
+    if (file_exists($css_path)) {
+        wp_enqueue_style(
+            'air-landing',
+            get_stylesheet_directory_uri() . '/assets/css/landing-air.css',
+            array('caia'),
+            filemtime($css_path)
+        );
+    }
 
     if (file_exists($js_path)) {
         wp_enqueue_script(

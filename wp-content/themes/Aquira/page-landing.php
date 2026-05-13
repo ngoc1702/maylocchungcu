@@ -22,7 +22,7 @@ remove_action( 'genesis_before_footer', 'caia_add_content_after_footer', 8 );
 add_action( 'genesis_after_header', 'caia_add_page_landing');
 function caia_add_page_landing() {
     ?>
-    <main id="main-landing" class="landing-page hotel-landing">
+    <main id="main-landing" class="landing-page hotel-landing air-landing">
         <?php hotel_landing_render_parts(); ?>
     </main>
     <?php

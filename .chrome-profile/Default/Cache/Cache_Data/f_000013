@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head itemscope itemtype="https://schema.org/WebSite">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aquira</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Aquira &raquo;" href="http://maylocchungcu.test/feed" />
+<link rel="canonical" href="http://maylocchungcu.test/" />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css?ver=6.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='caia-css' href='http://maylocchungcu.test/wp-content/themes/Aquira/style.css?ver=1778766752' type='text/css' media='all' />
+<link rel='stylesheet' id='aquira-water-care-landing-css' href='http://maylocchungcu.test/wp-content/themes/Aquira/assets/css/water-care-landing.css?ver=1778767174' type='text/css' media='all' />
+<script type="text/javascript" src="http://maylocchungcu.test/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="http://maylocchungcu.test/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="http://maylocchungcu.test/wp-content/themes/Aquira/custom/js/slick.js?ver=6.8.2" id="caia-slick-js"></script>
+<script type="text/javascript">function setCookie(e,t,o){if(0!=o){var i=new Date;i.setTime(i.getTime()+24*o*60*60*1e3);var n="expires="+i.toUTCString();document.cookie=e+"="+t+";"+n+";path=/"}else document.cookie=e+"="+t+";path=/"}function getCookie(e){for(var t=e+"=",o=document.cookie.split(";"),i=0;i<o.length;i++){for(var n=o[i];" "==n.charAt(0);)n=n.substring(1);if(0==n.indexOf(t))return n.substring(t.length,n.length)}return""}</script><link rel="https://api.w.org/" href="http://maylocchungcu.test/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="http://maylocchungcu.test/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://maylocchungcu.test/xmlrpc.php?rsd" />
+<link rel="alternate" title="oNhúng (JSON)" type="application/json+oembed" href="http://maylocchungcu.test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmaylocchungcu.test%2F" />
+<link rel="alternate" title="oNhúng (XML)" type="text/xml+oembed" href="http://maylocchungcu.test/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fmaylocchungcu.test%2F&#038;format=xml" />
+<link rel="icon" href="http://maylocchungcu.test/wp-content/themes/genesis/images/favicon.ico" />
+<meta itemprop="name" content="Aquira" />
+<meta itemprop="url" content="http://maylocchungcu.test/" />
+<style type="text/css">div#toc_container {width: 97%;}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' /></head>
+<body class="home wp-singular page-template page-template-page-landing page-template-page-landing-php page page-id-7 wp-theme-genesis wp-child-theme-Aquira header-full-width full-width-content genesis-breadcrumbs-hidden aquira-water-care-template" itemscope itemtype="https://schema.org/WebPage"><div class="site-container">    <main id="main-landing" class="landing-page water-care-landing">
+        
+<header class="water-header" id="landing-header">
+    <div class="water-container water-header__inner">
+        <a class="water-brand" href="http://maylocchungcu.test/" aria-label="Aquira">
+                            <img src="http://maylocchungcu.test/wp-content/uploads/2026/05/aquira_logo_new_prime.png" alt="AQUIRA_logo_new_prime">
+                    </a>
+
+                    <nav class="water-nav" aria-label="Landing navigation">
+                                    <a href="#quytrinh">Quy trình</a>
+                                    <a href="#khaosat">Khảo sát</a>
+                                    <a href="#uudiem">Ưu điểm</a>
+                                    <a href="#camket">Cam kết</a>
+                            </nav>
+        
+                    <a class="water-header__button" href="#khaosat">
+                Dành riêng cho cư dân            </a>
+            </div>
+</header>
+
+<section class="water-hero" id="top" style="background-image:
+        linear-gradient(
+            90deg,
+            rgba(250, 253, 253, 0.96) 0%,
+            rgba(250, 253, 253, 0.88) 32%,
+            rgba(250, 253, 253, 0.42) 52%,
+            rgba(250, 253, 253, 0.05) 100%
+        ),
+        url(http://maylocchungcu.test/wp-content/uploads/2026/05/bab1c850-5622-44bc-8e49-363114f43f88-e1778742145171.png);">
+    <div class="water-container water-hero__inner">
+        <div class="water-hero__content">
+                            <p class="water-eyebrow"><span aria-hidden="true"></span>Bảo vệ nguồn nước gia đình</p>
+            
+                            <h1>Trải nghiệm &amp; chăm sóc hệ thống đường ống nước sinh hoạt</h1>
+            
+            <span class="water-hero__rule" aria-hidden="true"></span>
+
+                            <p class="water-hero__description">Chương trình khảo sát dành riêng cho căn hộ tại tòa nhà nhằm nâng cao chất lượng cuộc sống và bảo vệ tài sản thiết bị vệ sinh của cư dân</p>
+            
+                            <div class="water-hero__feature">
+                    <span class="water-hero__feature-icon" aria-hidden="true">
+                                                    <i class="fa-solid fa-droplet"></i>
+                                            </span>
+                    <div class="water-hero__feature-copy">
+                                                    <strong>Khảo sát chuyên sâu</strong>
+                                                                            <span>Giải pháp phù hợp cho từng căn hộ</span>
+                                                                            <em>Hoàn toàn miễn phí</em>
+                                            </div>
+                </div>
+                    </div>
+    </div>
+</section>
+
+<section class="water-section water-process" id="quytrinh">
+    <span class="water-anchor" id="process" aria-hidden="true"></span>
+    <div class="water-container">
+                    <div class="water-section-heading">
+                                    <p class="water-section-heading__eyebrow">Quy trình</p>
+                                                    <h2>Quy trình thực hiện</h2>
+                            </div>
+        
+                    <div class="water-process__timeline">
+                                    <article class="water-process-step">
+                                                    <span class="water-process-step__number">1</span>
+                                                                            <h3>Khảo sát trực tuyến</h3>
+                                                                            <p>Chia sẻ nhu cầu và hiện trạng căn hộ của bạn thông qua form khảo sát.</p>
+                                            </article>
+                                    <article class="water-process-step">
+                                                    <span class="water-process-step__number">2</span>
+                                                                            <h3>Chuyên gia liên hệ tư vấn</h3>
+                                                                            <p>Đội ngũ kỹ thuật sẽ gọi điện hỗ trợ giải đáp thắc mắc chuyên sâu.</p>
+                                            </article>
+                                    <article class="water-process-step">
+                                                    <span class="water-process-step__number">3</span>
+                                                                            <h3>Kiểm tra thực tế</h3>
+                                                                            <p>Đánh giá hệ thống trực tiếp tại căn hộ và đề xuất giải pháp tối ưu nhất.</p>
+                                            </article>
+                            </div>
+            </div>
+</section>
+
+<section class="water-section water-survey" id="khaosat">
+    <span class="water-anchor" id="survey" aria-hidden="true"></span>
+    <div class="water-container">
+        <div class="water-survey__shell">
+                                      <h2 class="water-survey__title">Khảo sát nhu cầu</h2>
+                                                <div class="water-survey__fluent">
+                    <div class='fluentform ff-default fluentform_wrapper_1 ffs_default_wrap'><form data-form_id="1" id="fluentform_1" class="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading ffs_default" data-form_instance="ff_form_instance_1_1" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
+                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Khảo sát nhu cầu chăm sóc nguồn nước</legend><input type='hidden' name='__fluent_form_embded_post_id' value='7' /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" value="16f3155881" /><input type="hidden" name="_wp_http_referer" value="/" /><div data-name="ff_cn_id_1"  class='ff-t-container ff-column-container ff_columns_total_2 '><div class='ff-t-cell ff-t-column-1' style='flex-basis: 50%;'><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label   aria-label="1 . Sau một thời gian sinh sống, anh/chị có gặp tình trạng nào dưới đây trong căn hộ không?">1 . Sau một thời gian sinh sống, anh/chị có gặp tình trạng nào dưới đây trong căn hộ không?</label></div><div class='ff-el-input--content'><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_11e5f1c81973096ed2bc4e4c1ef480a5'><input  type="radio" name="input_radio" data-name="input_radio" class="ff-el-form-check-input ff-el-form-check-radio" value="Thiết bị phòng tắm / vòi nước dễ bám cặn"  id='input_radio_11e5f1c81973096ed2bc4e4c1ef480a5' aria-label='Thiết bị phòng tắm / vòi nước dễ bám cặn' aria-invalid='false' aria-required=true> <span>Thiết bị phòng tắm / vòi nước dễ bám cặn</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_cb7443f3c3111127cae7915e694989da'><input  type="radio" name="input_radio" data-name="input_radio" class="ff-el-form-check-input ff-el-form-check-radio" value=" Da hoặc tóc khô hơn sau khi tắm"  id='input_radio_cb7443f3c3111127cae7915e694989da' aria-label='Da hoặc tóc khô hơn sau khi tắm' aria-invalid='false' aria-required=true> <span> Da hoặc tóc khô hơn sau khi tắm</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_4c9a00ba73c032eb59180af60386da8f'><input  type="radio" name="input_radio" data-name="input_radio" class="ff-el-form-check-input ff-el-form-check-radio" value="Nước lúc mạnh lúc yếu trong sinh hoạt"  id='input_radio_4c9a00ba73c032eb59180af60386da8f' aria-label='Nước lúc mạnh lúc yếu trong sinh hoạt' aria-invalid='false' aria-required=true> <span>Nước lúc mạnh lúc yếu trong sinh hoạt</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_634f4bdb24525b2a156668b1bcdfad89'><input  type="radio" name="input_radio" data-name="input_radio" class="ff-el-form-check-input ff-el-form-check-radio" value=" Muốn chăm sóc hệ thống đường nước trong căn hộ tốt hơn"  id='input_radio_634f4bdb24525b2a156668b1bcdfad89' aria-label='Muốn chăm sóc hệ thống đường nước trong căn hộ tốt hơn' aria-invalid='false' aria-required=true> <span> Muốn chăm sóc hệ thống đường nước trong căn hộ tốt hơn</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_63bb9193dcb7946a5563614a6d476046'><input  type="radio" name="input_radio" data-name="input_radio" class="ff-el-form-check-input ff-el-form-check-radio" value="Chưa gặp vấn đề rõ ràng, chỉ muốn tìm hiểu thêm"  id='input_radio_63bb9193dcb7946a5563614a6d476046' aria-label='Chưa gặp vấn đề rõ ràng, chỉ muốn tìm hiểu thêm' aria-invalid='false' aria-required=true> <span>Chưa gặp vấn đề rõ ràng, chỉ muốn tìm hiểu thêm</span></label></div></div></div></div><div class='ff-t-cell ff-t-column-2' style='flex-basis: 50%;'><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label   aria-label="2. Anh/chị đã từng tìm hiểu cách để trải nghiệm nước sinh hoạt trong căn hộ dễ chịu hơn chưa ?">2. Anh/chị đã từng tìm hiểu cách để trải nghiệm nước sinh hoạt trong căn hộ dễ chịu hơn chưa ?</label></div><div class='ff-el-input--content'><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_1_9bc7fd5ccaf9acddea1e5d1a8d711d94'><input  type="radio" name="input_radio_1" data-name="input_radio_1" class="ff-el-form-check-input ff-el-form-check-radio" value="Đã từng tìm hiểu"  id='input_radio_1_9bc7fd5ccaf9acddea1e5d1a8d711d94' aria-label='Đã từng tìm hiểu' aria-invalid='false' aria-required=true> <span>Đã từng tìm hiểu</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_1_3d0647dfd16795267caf02da050c6a8d'><input  type="radio" name="input_radio_1" data-name="input_radio_1" class="ff-el-form-check-input ff-el-form-check-radio" value="Có quan tâm nhưng chưa tìm hiểu kỹ"  id='input_radio_1_3d0647dfd16795267caf02da050c6a8d' aria-label='Có quan tâm nhưng chưa tìm hiểu kỹ' aria-invalid='false' aria-required=true> <span>Có quan tâm nhưng chưa tìm hiểu kỹ</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_1_8dac1ba3444053b145a0af5fff9f5ca7'><input  type="radio" name="input_radio_1" data-name="input_radio_1" class="ff-el-form-check-input ff-el-form-check-radio" value="Chưa từng để ý nhiều"  id='input_radio_1_8dac1ba3444053b145a0af5fff9f5ca7' aria-label='Chưa từng để ý nhiều' aria-invalid='false' aria-required=true> <span>Chưa từng để ý nhiều</span></label></div></div></div></div></div><div data-name="ff_cn_id_2"  class='ff-t-container ff-column-container ff_columns_total_2 '><div class='ff-t-cell ff-t-column-1' style='flex-basis: 50%;'><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label   aria-label="3. Gia đình mình hiện phù hợp với trường hợp nào dưới đây?">3. Gia đình mình hiện phù hợp với trường hợp nào dưới đây?</label></div><div class='ff-el-input--content'><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_2_12350b7077fb405f5005f93f144a1661'><input  type="checkbox" name="checkbox_2[]" data-name="checkbox_2" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Có trẻ nhỏ"  id='checkbox_2_12350b7077fb405f5005f93f144a1661' aria-label='Có trẻ nhỏ' aria-invalid='false' aria-required=true> <span>Có trẻ nhỏ</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_2_be48a253ee5ddfac4fb0c0afdb304685'><input  type="checkbox" name="checkbox_2[]" data-name="checkbox_2" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Có người da / tóc nhạy cảm"  id='checkbox_2_be48a253ee5ddfac4fb0c0afdb304685' aria-label='Có người da / tóc nhạy cảm' aria-invalid='false' aria-required=true> <span>Có người da / tóc nhạy cảm</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_2_d60b9b0f072da110dc5366f8c4aa9bc6'><input  type="checkbox" name="checkbox_2[]" data-name="checkbox_2" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Quan tâm không gian sống &amp; thiết bị trong nhà"  id='checkbox_2_d60b9b0f072da110dc5366f8c4aa9bc6' aria-label='Quan tâm không gian sống &amp; thiết bị trong nhà' aria-invalid='false' aria-required=true> <span>Quan tâm không gian sống &amp; thiết bị trong nhà</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_2_57458353e8073de34b3c14b01a00c38a'><input  type="checkbox" name="checkbox_2[]" data-name="checkbox_2" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Đã đầu tư các thiết bị nâng cao trải nghiệm sống"  id='checkbox_2_57458353e8073de34b3c14b01a00c38a' aria-label='Đã đầu tư các thiết bị nâng cao trải nghiệm sống' aria-invalid='false' aria-required=true> <span>Đã đầu tư các thiết bị nâng cao trải nghiệm sống</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_2_f753db9d3743218e772dfb92baad651e'><input  type="checkbox" name="checkbox_2[]" data-name="checkbox_2" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Chỉ tham khảo thêm"  id='checkbox_2_f753db9d3743218e772dfb92baad651e' aria-label='Chỉ tham khảo thêm' aria-invalid='false' aria-required=true> <span>Chỉ tham khảo thêm</span></label></div></div></div></div><div class='ff-t-cell ff-t-column-2' style='flex-basis: 50%;'><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label   aria-label="4. Gia đình mình hiện đang sử dụng thiết bị nào dưới đây trong căn hộ để bảo vệ sức khỏe?">4. Gia đình mình hiện đang sử dụng thiết bị nào dưới đây trong căn hộ để bảo vệ sức khỏe?</label></div><div class='ff-el-input--content'><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_3_9e5277e5b0216dcf429266698f0ddf32'><input  type="checkbox" name="checkbox_3[]" data-name="checkbox_3" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Máy lọc nước RO/NANO/UF"  id='checkbox_3_9e5277e5b0216dcf429266698f0ddf32' aria-label='Máy lọc nước RO/NANO/UF' aria-invalid='false' aria-required=true> <span>Máy lọc nước RO/NANO/UF</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_3_81a28bc81260a786176bc92e295b4842'><input  type="checkbox" name="checkbox_3[]" data-name="checkbox_3" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Máy lọc nước ion kiềm / hydrogen"  id='checkbox_3_81a28bc81260a786176bc92e295b4842' aria-label='Máy lọc nước ion kiềm / hydrogen' aria-invalid='false' aria-required=true> <span>Máy lọc nước ion kiềm / hydrogen</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_3_99ab214c9bce1bb50c9f972147ea6baf'><input  type="checkbox" name="checkbox_3[]" data-name="checkbox_3" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Máy lọc không khí"  id='checkbox_3_99ab214c9bce1bb50c9f972147ea6baf' aria-label='Máy lọc không khí' aria-invalid='false' aria-required=true> <span>Máy lọc không khí</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_3_20ee1fd432f3879ab86adf96a95f8f21'><input  type="checkbox" name="checkbox_3[]" data-name="checkbox_3" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Robot hút bụi"  id='checkbox_3_20ee1fd432f3879ab86adf96a95f8f21' aria-label='Robot hút bụi' aria-invalid='false' aria-required=true> <span>Robot hút bụi</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='checkbox_3_2ece425576359d1c49e65116035419e0'><input  type="checkbox" name="checkbox_3[]" data-name="checkbox_3" class="ff-el-form-check-input ff-el-form-check-checkbox" value="Chưa sử dụng thiết bị nào đặc biệt"  id='checkbox_3_2ece425576359d1c49e65116035419e0' aria-label='Chưa sử dụng thiết bị nào đặc biệt' aria-invalid='false' aria-required=true> <span>Chưa sử dụng thiết bị nào đặc biệt</span></label></div></div></div></div></div><div data-name="ff_cn_id_3"  class='ff-t-container ff-column-container ff_columns_total_2 '><div class='ff-t-cell ff-t-column-1' style='flex-basis: 50%;'><div class='ff-el-group'><div class="ff-el-input--label asterisk-right"><label for='ff_1_description' id='label_ff_1_description' aria-label="5. Điều gì khiến Anh/Chị trăn trở nhất về tác động của nguồn nước tới sức khỏe và tài sản của gia đình mình?">5. Điều gì khiến Anh/Chị trăn trở nhất về tác động của nguồn nước tới sức khỏe và tài sản của gia đình mình?</label></div><div class='ff-el-input--content'><textarea aria-required="false" aria-labelledby="label_ff_1_description" name="description" id="ff_1_description" class="ff-el-form-control" placeholder="Nhập nội dung ..." rows="6" cols="2" data-name="description" ></textarea></div></div></div><div class='ff-t-cell ff-t-column-2' style='flex-basis: 50%;'><div class='ff-el-group aquira-radio-inline'><div class="ff-el-input--label asterisk-right"><label   aria-label="6. Nếu căn hộ phù hợp với chương trình trải nghiệm của Aquira, anh/chị có muốn đội ngũ khảo sát thực tế nhanh tại căn hộ ngay hôm nay?">6. Nếu căn hộ phù hợp với chương trình trải nghiệm của Aquira, anh/chị có muốn đội ngũ khảo sát thực tế nhanh tại căn hộ ngay hôm nay?</label></div><div class='ff-el-input--content'><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_2_1045a1678ac83f6bd56cf50461c32239'><input  type="radio" name="input_radio_2" data-name="input_radio_2" class="ff-el-form-check-input ff-el-form-check-radio" value="Sẵn lòng"  id='input_radio_2_1045a1678ac83f6bd56cf50461c32239' aria-label='Sẵn lòng' aria-invalid='false' aria-required=false> <span>Sẵn lòng</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_2_2d63873361bfe9fa5fa2e976708beaf8'><input  type="radio" name="input_radio_2" data-name="input_radio_2" class="ff-el-form-check-input ff-el-form-check-radio" value="Có thể nếu phù hợp"  id='input_radio_2_2d63873361bfe9fa5fa2e976708beaf8' aria-label='Có thể nếu phù hợp' aria-invalid='false' aria-required=false> <span>Có thể nếu phù hợp</span></label></div><div class='ff-el-form-check ff-el-form-check-'><label class='ff-el-form-check-label' for='input_radio_2_47700efe42d24b9e490239821c367138'><input  type="radio" name="input_radio_2" data-name="input_radio_2" class="ff-el-form-check-input ff-el-form-check-radio" value="Cần cân nhắc thêm"  id='input_radio_2_47700efe42d24b9e490239821c367138' aria-label='Cần cân nhắc thêm' aria-invalid='false' aria-required=false> <span>Cần cân nhắc thêm</span></label></div></div></div><div class='ff-el-group has-conditions aquira-time-field'><div class='ff-el-input--content'><input type="text" name="input_text" class="ff-el-form-control" placeholder="Khung giờ (18h - 20h)" data-name="input_text" id="ff_1_input_text"  aria-invalid="false" aria-required=true></div></div></div></div><div data-name="ff_cn_id_4"  class='ff-t-container ff-column-container ff_columns_total_2 '><div class='ff-t-cell ff-t-column-1' style='flex-basis: 50%;'><div class='ff-el-group  ff-custom_html' tabindex='-1' data-name="custom_html-1_1" ><h3 style="text-align: left">7. Thông tin liên hệ (Để nhận mã dự thưởng):</h3></div><div data-type="name-element" data-name="names" class=" ff-field_container ff-name-field-wrapper" ><div class='ff-t-container'><div class='ff-t-cell '><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_names_last_name_' id='label_ff_1_names_last_name_' >Họ và tên</label></div><div class='ff-el-input--content'><input type="text" name="names[last_name]" id="ff_1_names_last_name_" class="ff-el-form-control" placeholder="Họ và tên" aria-invalid="false" aria-required=true></div></div></div></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_numeric_field' id='label_ff_1_numeric_field' aria-label="Số điện thoại">Số điện thoại</label></div><div class='ff-el-input--content'><input type="number" name="numeric_field" id="ff_1_numeric_field" class="ff-el-form-control" placeholder="Số điện thoại" data-name="numeric_field" inputmode="numeric" step="any"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_input_text_1' id='label_ff_1_input_text_1' aria-label="Địa chỉ">Địa chỉ</label></div><div class='ff-el-input--content'><input type="text" name="input_text_1" class="ff-el-form-control" placeholder="Chung cư/ căn hộ" data-name="input_text_1" id="ff_1_input_text_1"  aria-invalid="false" aria-required=true></div></div></div><div class='ff-t-cell ff-t-column-2' style='flex-basis: 50%;'><div class='ff-el-group  ff-custom_html' tabindex='-1' data-name="custom_html-1_2" ><p class="survey-note">
+  Vui lòng để lại thông tin chính xác để Aquira có thể gửi tặng bạn Mã dự thưởng
+  và bản tóm tắt Kết quả khảo sát ngay sau khi hoàn tất.
+</p>
+
+<div class="privacy-box">
+  <div class="privacy-title">
+    <span class="privacy-icon"><i class="fa-solid fa-lock"></i></span>
+    <span>Cam kết bảo mật thông tin</span>
+  </div>
+
+  <p class="privacy-text">
+    Dữ liệu của bạn chỉ được sử dụng cho chương trình khảo sát và chăm sóc cư dân tại tòa nhà.
+  </p>
+</div></div></div></div><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md ff_btn_style"  aria-label="Gửi khảo sát">Gửi khảo sát</button></div></fieldset></form><div id='fluentform_1_errors' class='ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors'></div></div>            <script type="text/javascript">
+                window.fluent_form_ff_form_instance_1_1 = {"id":"1","ajaxUrl":"http:\/\/maylocchungcu.test\/wp-admin\/admin-ajax.php","settings":{"layout":{"labelPlacement":"top","helpMessagePlacement":"with_label","errorMessagePlacement":"inline","cssClassName":"","asteriskPlacement":"asterisk-right"},"restrictions":{"denyEmptySubmission":{"enabled":false}}},"form_instance":"ff_form_instance_1_1","form_id_selector":"fluentform_1","rules":{"input_radio":{"required":{"value":true,"message":"C\u00e2u tr\u1ea3 l\u1eddi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ecdn","global_message":"This field is required","global":false}},"input_radio_1":{"required":{"value":true,"message":"C\u00e2u tr\u1ea3 l\u1eddi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ecdn","global_message":"This field is required","global":false}},"checkbox_2":{"required":{"value":true,"message":"C\u00e2u tr\u1ea3 l\u1eddi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ecdn","global_message":"This field is required","global":false}},"checkbox_3":{"required":{"value":true,"message":"C\u00e2u tr\u1ea3 l\u1eddi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ecdn","global_message":"This field is required","global":false}},"description":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"input_radio_2":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"input_text":{"required":{"value":true,"message":"C\u00e2u tr\u1ea3 l\u1eddi ch\u01b0a \u0111\u01b0\u1ee3c ch\u1ecdn","global_message":"This field is required","global":false}},"names[first_name]":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"names[middle_name]":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"names[last_name]":{"required":{"value":true,"message":"\u0110\u00e2y l\u00e0 th\u00f4ng tin b\u1eaft  bu\u1ed9c","global_message":"This field is required","global":false}},"numeric_field":{"required":{"value":true,"message":"\u0110\u00e2y l\u00e0 th\u00f4ng tin b\u1eaft  bu\u1ed9c","global_message":"This field is required","global":false},"numeric":{"value":true,"message":"This field must contain numeric value","global_message":"This field must contain numeric value","global":true},"min":{"value":"","message":"Validation fails for minimum value","global_message":"Validation fails for minimum value","global":false},"max":{"value":"","message":"Validation fails for maximum value","global_message":"Validation fails for maximum value","global":false},"digits":{"value":"","message":"Validation fails for limited digits","global_message":"Validation fails for limited digits","global":true}},"input_text_1":{"required":{"value":true,"message":"\u0110\u00e2y l\u00e0 th\u00f4ng tin b\u1eaft  bu\u1ed9c","global_message":"This field is required","global":false}}},"debounce_time":300,"conditionals":{"input_text":{"type":"any","status":true,"conditions":[{"field":"input_radio_2","value":"S\u1eb5n l\u00f2ng","operator":"="}],"condition_groups":[{"rules":[{"field":"","value":"","operator":""}],"title":"","isEditingTitle":false,"isPreviewOpen":false,"isGroupOpen":true}]}}};
+                            </script>
+                            </div>
+                    </div>
+    </div>
+</section>
+
+<section class="water-section water-benefits" id="uudiem">
+    <span class="water-anchor" id="benefits" aria-hidden="true"></span>
+    <span class="water-anchor" id="services" aria-hidden="true"></span>
+    <div class="water-container">
+                    <div class="water-section-heading">
+                <h2>Ưu điểm của giải pháp Aquira</h2>
+            </div>
+        
+                    <div class="water-benefits__grid">
+                                    <article class="water-benefit-card">
+                        <span class="water-benefit-card__icon">
+                            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                        </span>
+                                                    <h3>Bảo vệ toàn diện</h3>
+                                                                            <p>Ngăn chặn cặn bẩn tích tụ, bảo vệ tối ưu các thiết bị vệ sinh cao cấp</p>
+                                            </article>
+                                    <article class="water-benefit-card">
+                        <span class="water-benefit-card__icon">
+                            <i class="fa-solid fa-shield-heart" aria-hidden="true"></i>
+                        </span>
+                                                    <h3>An toàn sức khỏe</h3>
+                                                                            <p>Loại bỏ triệt để các tác nhân gây hại tiềm ẩn trong nước sinh hoạt</p>
+                                            </article>
+                                    <article class="water-benefit-card">
+                        <span class="water-benefit-card__icon">
+                            <i class="fa-solid fa-spa" aria-hidden="true"></i>
+                        </span>
+                                                    <h3>Chăm sóc da &amp; tóc</h3>
+                                                                            <p>Nước mềm hơn, mang lại cảm giác dễ chịu, không còn khô da sau khi tắm</p>
+                                            </article>
+                                    <article class="water-benefit-card">
+                        <span class="water-benefit-card__icon">
+                            <i class="fa-solid fa-piggy-bank" aria-hidden="true"></i>
+                        </span>
+                                                    <h3>Tiết kiệm chi phí</h3>
+                                                                            <p>Kéo dài tuổi thọ hệ thống đường ống và các thiết bị sử dụng nước</p>
+                                            </article>
+                            </div>
+            </div>
+</section>
+
+    <section class="water-trust-strip" id="camket" aria-label="Cam kết dịch vụ">
+        <div class="water-container">
+            <div class="water-trust-strip__grid">
+                                    <article class="water-trust-item">
+                        <i class="fa-solid fa-award" aria-hidden="true"></i>
+                        <div>
+                                                            <span>Dịch vụ</span>
+                                                                                        <strong>Chuyên nghiệp</strong>
+                                                    </div>
+                    </article>
+                                    <article class="water-trust-item">
+                        <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                        <div>
+                                                            <span>Thông tin</span>
+                                                                                        <strong>Tuyệt đối bảo mật</strong>
+                                                    </div>
+                    </article>
+                                    <article class="water-trust-item">
+                        <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
+                        <div>
+                                                            <span>Hỗ trợ</span>
+                                                                                        <strong>Tận tâm 24/7</strong>
+                                                    </div>
+                    </article>
+                            </div>
+        </div>
+    </section>
+
+<footer class="water-footer" id="footer">
+    <div class="water-container">
+        <div class="water-footer__top">
+            <div class="water-footer__brand">
+             <a class="water-footer__logo"
+   href="http://maylocchungcu.test/"
+   aria-label="Aquira Water Care">
+
+            <img
+            src="http://maylocchungcu.test/wp-content/uploads/2026/05/chatgpt-image-may-14-2026-03_47_13-pm-e1778748644737.png"
+            alt="Aquira Water Care">
+    
+</a>
+                                    <p>Giải pháp chăm sóc và bảo vệ hệ thống nước sinh hoạt tiêu chuẩn quốc tế cho căn hộ cao cấp.</p>
+                
+                                    <ul class="water-footer__list">
+                                                    <li>
+                                                                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                                                                                                    <span>Số 5 đường số 2, KDC Vạn Phúc, Hiệp Bình, TP.HCM</span>
+                                                            </li>
+                                                    <li>
+                                                                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                                                                                                    <a href="tel:0926336393">0926336393</a>
+                                                            </li>
+                                                    <li>
+                                                                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                                                                                                    <a href="mailto:aquiravietnam@gmail.com">aquiravietnam@gmail.com</a>
+                                                            </li>
+                                            </ul>
+                            </div>
+
+            <div class="water-footer__columns">
+                <div class="water-footer__column">
+                    <h2>Liên kết</h2>
+                    <ul>        <li><a href="#quytrinh">Quy trình</a></li>
+                <li><a href="#khaosat">Khảo sát</a></li>
+                <li><a href="#uudiem">Ưu điểm</a></li>
+                <li><a href="#camket">Cam kết</a></li>
+        </ul>
+                </div>
+                <div class="water-footer__column">
+                    <h2>Hỗ trợ</h2>
+                    <ul>        <li><a href="#">Trung tâm trợ giúp</a></li>
+                <li><a href="#">Điều khoản dịch vụ</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="#">Chính sách bán hàng</a></li>
+        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="water-footer__bottom">
+                            <p>© 2026 Aquira Water Care. All rights reserved.</p>
+            
+                            <div class="water-footer__socials" aria-label="Social links">
+                                            <a href="https://www.facebook.com/loctongcaocapAquira" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                                            <a href="https://www.youtube.com/@AquiraVietnam" aria-label="Youtube">
+                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                        </a>
+                                            <a href="https://www.linkedin.com/in/alan-pham-1862b0185?utm_source=share&#038;utm_campaign=share_via&#038;utm_content=profile&#038;utm_medium=android_app" aria-label="Linkedin">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                                    </div>
+                    </div>
+    </div>
+</footer>    </main>
+    <div class="site-inner"><div class="content-sidebar-wrap"><main class="content"></main></div></div></div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Aquira\/*","\/wp-content\/themes\/genesis\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+	jQuery(document).ready(function () {
+	    jQuery('body').bind('cut copy paste', function (e) { e.preventDefault(); });	    
+	    jQuery("body").on("contextmenu",function(e){ return false; });
+	});
+</script>
+			
+<script>
+
+document.querySelectorAll('.circle p').forEach(p => {
+  if (!p.textContent.trim()) {
+    p.remove();
+  }
+});
+
+
+</script>
+
+
+<script>
+
+
+jQuery(document).ready(function($) {
+  var $roomShowcase = $(".hotel-room-showcase");
+
+  if (!$roomShowcase.length || !$.fn.slick || $roomShowcase.hasClass("slick-initialized") || $roomShowcase.children(".hotel-room-card").length < 2) {
+    return;
+  }
+
+  $roomShowcase.slick({
+    arrows: true,
+    infinite: true,
+    dots: false,
+    speed: 600,
+    autoplay: true,
+    autoplaySpeed: 8000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
+
+
+
+jQuery(document).ready(function($) {
+  var $offersTrack = $(".hotel-offers__track");
+
+  if (!$offersTrack.length || !$.fn.slick || $offersTrack.hasClass("slick-initialized") || $offersTrack.children(".hotel-offer-card").length < 2) {
+    return;
+  }
+
+  $offersTrack.slick({
+    arrows: true,
+    dots: false,
+    speed: 600,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+   responsive: [
+      {
+        breakpoint: 1440, 
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+
+jQuery(document).ready(function($) {
+  function initSlickForMobile(selector, options) {
+    if ($(window).width() < 768) {
+      if (!$(selector).hasClass('slick-initialized')) {
+        $(selector).slick(options);
+      }
+    } else {
+      if ($(selector).hasClass('slick-initialized')) {
+        $(selector).slick('unslick');
+      }
+    }
+  }
+
+  function handleSlickInit() {
+    // Cấu hình riêng cho từng class
+    initSlickForMobile('.chatluong-wrapper', {
+      arrows: false,
+      infinite: true,
+      dots: true,
+      speed: 600,
+      autoplay: false,
+      autoplaySpeed: 6000,
+      pauseOnHover: false,
+      pauseOnFocus: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    });
+
+    initSlickForMobile('.camket-box', {
+      arrows: false,
+      infinite: false,
+      dots: true,
+      speed: 600,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      pauseOnHover: true,
+      pauseOnFocus: false,
+      slidesToShow: 1.6,
+      slidesToScroll: 2
+    });
+  }
+
+  // Gọi khi tải trang
+  handleSlickInit();
+
+  // Gọi lại khi resize cửa sổ
+  $(window).on('resize', function() {
+    handleSlickInit();
+  });
+});
+
+
+</script>
+
+
+
+<script>
+
+	document.addEventListener("DOMContentLoaded", function () {
+  const counters = document.querySelectorAll(".content-thanhtuu ul li span");
+
+  counters.forEach(counter => {
+    const target = parseInt(counter.textContent.replace(/\D/g, "")); // Lấy số từ <em>
+    counter.textContent = "0"; // Bắt đầu từ 0
+
+    let count = 0;
+    const speed = 30; // ms mỗi lần tăng
+    const increment = Math.ceil(target / 100); // tăng từng bước nhỏ
+
+    const updateCount = () => {
+      count += increment;
+      if (count >= target) {
+        counter.textContent = target;
+      } else {
+        counter.textContent = count;
+        setTimeout(updateCount, speed);
+      }
+    };
+
+    updateCount();
+  });
+});
+
+jQuery(document).ready(function($) {
+
+  // mở popup từ header
+    $('.site-header p').click(function () {
+        $('.nhantuvan').show();
+        $('.nhantuvan .widget_caldera_forms_widget').show();
+    });
+
+    // mở popup từ CTA
+    $(document).on('click', '.btn-cta', function () {
+        $('.nhantuvan').show();
+        $('.nhantuvan .widget_caldera_forms_widget').show();
+    });
+
+    // mở popup từ course button
+    $(document).on('click', '.course-btn', function () {
+        $('.nhantuvan').show();
+        $('.nhantuvan .widget_caldera_forms_widget').show();
+    });
+
+    // đóng popup
+    $('.nhantuvan .widget_caldera_forms_widget .widgettitle').click(function () {
+        $('.nhantuvan').hide();
+        $('.nhantuvan .widget_caldera_forms_widget').hide();
+    });
+
+
+
+  var youtube = document.querySelectorAll( ".youtube" );
+      for (var i = 0; i < youtube.length; i++) {
+          // thumbnail image source.
+          var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/hqdefault.jpg"; 
+
+          // Load the image asynchronously
+          var image = new Image();
+              image.src = source;
+              image.addEventListener( "load", function() {
+                  youtube[ i ].appendChild( image );
+              }( i ) );
+
+          youtube[i].addEventListener( "click", function() {
+
+          var iframe = document.createElement( "iframe" );
+   
+              iframe.setAttribute( "frameborder", "0" );
+              iframe.setAttribute( "allowfullscreen", "" );
+              iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+   
+              this.innerHTML = "";
+              this.appendChild( iframe );
+      } );
+       
+      }
+
+  
+
+
+	$('').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+		arrows: false,
+		fade: true,
+		asNavFor: ''
+	});
+
+	$('').slick({
+	    slidesToShow: 2,
+	    slidesToScroll: 1,
+	    infinite: false,
+	    asNavFor: '',
+	    dots: false,
+	    arrows: true,
+	    centerMode: false, 
+	    focusOnSelect: true
+	});
+
+	var nav = $('.nav-primary');
+	var head =$('.site-header');
+	var click =$('#click-menu');
+	var menu = $('#responsive-menu');
+	var close = $('#click-menu-close');
+	var nhantuvan = $('.nhantuvan');
+
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			nav.addClass("f-nav");
+			head.addClass("f-head");
+			click.addClass("f-click");
+			menu.addClass("f-menu");
+			close.addClass("f-close");
+			nhantuvan.addClass("f-tuvan");
+
+		} else {
+			nav.removeClass("f-nav");
+			head.removeClass("f-head");
+			click.removeClass("f-click");
+			menu.removeClass("f-menu");
+			close.removeClass("f-close");
+			nhantuvan.removeClass("f-tuvan");
+		}
+		
+	});
+
+
+// đại diện vn
+
+if ($(window).width() > 960) {
+
+	// const slider = document.querySelector('.content-doitac ul');
+  // slider.innerHTML += slider.innerHTML; // Clone toàn bộ li
+
+	// $(".content-doitac ul").slick({
+	//   arrows: false,
+  // infinite: true,
+  // dots: false,
+  // speed: 15000,             // chậm dần nhưng liên tục
+  // cssEase: 'linear',
+  // autoplay: true,
+  // autoplaySpeed: 0,
+  // pauseOnHover: false,
+  // pauseOnFocus: false,
+  // slidesToShow: 6,
+  // slidesToScroll: 1,
+  // variableWidth: true,
+	// });
+
+
+}else{
+
+	
+
+	$("").slick({
+		arrows: false,
+			infinite: true,
+			dots: true,
+			speed: 600,	
+			autoplay: true,
+			autoplaySpeed: 5000,	
+			pauseOnHover: false,
+			pauseOnFocus: false,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			adaptiveHeight: false,
+			variableWidth: false,
+			dotsClass: 'custom_paging',
+		    customPaging: function (slider, i) {
+		        return '<span class="line"></span>';
+		    },
+	});	
+
+
+}
+
+
+$("").slick({
+		arrows: true,
+		infinite: true,
+		dots: false,
+		speed: 600,	
+		autoplay: false,
+		autoplaySpeed: 5000,	
+		pauseOnHover: false,
+		pauseOnFocus: false,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [
+			{
+			breakpoint: 961,
+				settings: {
+					slidesToShow: 4,
+				}
+			},
+			{
+			breakpoint: 769,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					arrows: false,
+					dots: true,
+					dotsClass: 'custom_paging',
+		    customPaging: function (slider, i) {
+		        return '<span class="line"></span>';
+		    },
+				}
+			}
+		]
+	});
+
+	
+	$('a[href*=\\#]:not([href=\\#])').click(function() {
+		if (location.pathname.replace('/^\//','') == this.pathname.replace('/^\//','') && location.hostname == this.hostname) {
+		  var target = $(this.hash);
+		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		  if (target.length) {
+			$('html,body').animate({
+			  scrollTop: target.offset().top-50
+			}, 500);
+			return false;
+		  }
+		}
+	});	
+});
+</script>
+
+<script>
+jQuery(document).ready( function($){
+	$(".content .comment-form #submit").click(function(){
+		var comment_content = $(".content .comment-form #comment").val();
+		if( !comment_content )
+		{
+			alert('Bạn chưa nhập nội dung bình luận!');
+			return false;
+		}else{
+			$(".content .comment-form .popup-comment").fadeIn();
+			return false;
+		}
+	});
+	$(".content .comment-form .popup-comment .close-popup-comment").click(function(){
+		$(".content .comment-form .popup-comment").fadeOut();
+	});
+	$("main.content #respond input#submit-commnent").click(function(){
+		var comment_name = $(".content .comment-form #author").val();
+		var comment_email = $(".content .comment-form #email").val();
+		var comment_phone = $(".content .comment-form .comment-form-phone #author").val();
+		if( !comment_name ){
+			alert('Bạn chưa nhập họ và tên!');
+			return false;
+		}else if( !comment_email ){
+			alert('Bạn chưa nhập email!');
+			return false;
+		}else if( !comment_phone ){
+			alert('Bạn chưa nhập số điện thoại!');
+			return false;
+		}else{
+			$(".content #commentform").submit();
+			$(".content .comment-form .popup-comment").fadeOut();
+		}
+	});
+});
+</script>
+
+
+<script>
+(function ($) {
+    'use strict';
+
+    $(function () {
+        var $videoModal = $('.hotel-video-modal');
+        var $videoFrame = $videoModal.find('[data-video-frame]');
+        var $landingHeader = $('.hotel-landing-header');
+        var lastVideoTrigger = null;
+
+        function updateHotelHeaderState() {
+            if (!$landingHeader.length) {
+                return;
+            }
+
+            $landingHeader.toggleClass('is-scrolled', $(window).scrollTop() > 10);
+        }
+
+        function getHotelAnchorTarget(hash) {
+            var anchorAliases = {
+                '#gioi-thieu': '#gioithieu',
+                '#gioithieu': '#gioi-thieu',
+                '#hang-phong': '#hangphong',
+                '#hangphong': '#hang-phong',
+                '#tien-ich': '#tienich',
+                '#tienich': '#tien-ich',
+                '#nha-hang': '#nhahang',
+                '#nhahang': '#nha-hang',
+                '#uu-dai': '#uudai',
+                '#uudai': '#uu-dai',
+                '#danh-gia': '#danhgia',
+                '#danhgia': '#danh-gia',
+                '#lien-he': '#lienhe',
+                '#lienhe': '#lien-he'
+            };
+            var $target = $(hash);
+
+            if ($target.length || !anchorAliases[hash]) {
+                return $target;
+            }
+
+            return $(anchorAliases[hash]);
+        }
+
+        updateHotelHeaderState();
+        $(window).on('scroll.hotelLandingHeader resize.hotelLandingHeader', updateHotelHeaderState);
+
+        function getHotelVideoEmbed(url) {
+            if (!url || url === '#') {
+                return null;
+            }
+
+            try {
+                var parsedUrl = new URL(url, window.location.href);
+                var host = parsedUrl.hostname.replace(/^www\./, '');
+                var videoId = '';
+
+                if (host === 'youtu.be') {
+                    videoId = parsedUrl.pathname.split('/').filter(Boolean)[0];
+                    return videoId ? { type: 'iframe', url: 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0' } : null;
+                }
+
+                if (host === 'youtube.com' || host === 'm.youtube.com') {
+                    if (parsedUrl.pathname === '/watch') {
+                        videoId = parsedUrl.searchParams.get('v');
+                    } else {
+                        videoId = parsedUrl.pathname.split('/').filter(Boolean).pop();
+                    }
+
+                    return videoId ? { type: 'iframe', url: 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0' } : null;
+                }
+
+                if (host === 'vimeo.com' || host === 'player.vimeo.com') {
+                    videoId = parsedUrl.pathname.split('/').filter(Boolean).pop();
+                    return videoId ? { type: 'iframe', url: 'https://player.vimeo.com/video/' + videoId + '?autoplay=1' } : null;
+                }
+
+                if (/\.(mp4|webm|ogg)(\?.*)?$/i.test(parsedUrl.href)) {
+                    return { type: 'video', url: parsedUrl.href };
+                }
+            } catch (error) {
+                return null;
+            }
+
+            return null;
+        }
+
+        function closeHotelVideoModal() {
+            if (!$videoModal.length) {
+                return;
+            }
+
+            $videoModal.removeClass('is-open').attr('aria-hidden', 'true');
+            $videoFrame.empty();
+            $('body').removeClass('hotel-video-modal-open');
+
+            if (lastVideoTrigger) {
+                lastVideoTrigger.focus();
+                lastVideoTrigger = null;
+            }
+        }
+
+        $('.js-hotel-video-play').on('click', function (event) {
+            var embed = getHotelVideoEmbed($(this).data('video-url') || $(this).attr('href'));
+
+            event.preventDefault();
+
+            if (!$videoModal.length || !embed) {
+                return;
+            }
+
+            lastVideoTrigger = this;
+            $videoFrame.empty();
+
+            if (embed.type === 'video') {
+                $('<video>', {
+                    src: embed.url,
+                    controls: true,
+                    autoplay: true,
+                    playsinline: true
+                }).appendTo($videoFrame);
+            } else {
+                $('<iframe>', {
+                    src: embed.url,
+                    title: $(this).attr('aria-label') || 'Hotel video',
+                    allow: 'autoplay; fullscreen; picture-in-picture',
+                    allowfullscreen: 'allowfullscreen'
+                }).appendTo($videoFrame);
+            }
+
+            $('body').addClass('hotel-video-modal-open');
+            $videoModal.addClass('is-open').attr('aria-hidden', 'false');
+            $videoModal.find('.hotel-video-modal__close').focus();
+        });
+
+        $videoModal.on('click', function (event) {
+            if ($(event.target).is('.hotel-video-modal')) {
+                closeHotelVideoModal();
+            }
+        });
+
+        $videoModal.find('.hotel-video-modal__close').on('click', closeHotelVideoModal);
+
+        $(document).on('keydown', function (event) {
+            if (event.key === 'Escape' && $videoModal.hasClass('is-open')) {
+                closeHotelVideoModal();
+            }
+        });
+
+        $('.hotel-landing a[href^="#"]').on('click', function (event) {
+            var target = $(this).attr('href');
+            var $target;
+
+            if (!target || target === '#') {
+                return;
+            }
+
+            $target = getHotelAnchorTarget(target);
+
+            if (!$target.length) {
+                return;
+            }
+
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $target.offset().top - ($landingHeader.length ? $landingHeader.outerHeight() + 12 : 24)
+            }, 500);
+        });
+
+    });
+})(jQuery);
+</script>
+<script type="module">
+      import "https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js";
+    </script><style>form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) { background-color: var(--fluentform-primary); color: #ffffff; }</style><link rel='stylesheet' id='fluent-form-styles-css' href='http://maylocchungcu.test/wp-content/plugins/fluentform/assets/css/fluent-forms-public.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fluentform-public-default-css' href='http://maylocchungcu.test/wp-content/plugins/fluentform/assets/css/fluentform-public-default.css?ver=6.2.2' type='text/css' media='all' />
+<script type="text/javascript" src="http://maylocchungcu.test/wp-content/themes/Aquira/assets/js/water-care-landing.js?ver=1778766752" id="aquira-water-care-landing-js"></script>
+<script type="text/javascript" src="http://maylocchungcu.test/wp-content/plugins/fluentform/assets/js/fluentform-advanced.js?ver=6.2.2" id="fluentform-advanced-js"></script>
+<script type="text/javascript" id="fluent-form-submission-js-extra">
+/* <![CDATA[ */
+var fluentFormVars = {"ajaxUrl":"http:\/\/maylocchungcu.test\/wp-admin\/admin-ajax.php","forms":[],"step_text":"Step %activeStep% of %totalStep% - %stepTitle%","is_rtl":"","date_i18n":{"previousMonth":"Previous Month","nextMonth":"Next Month","months":{"shorthand":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"longhand":["January","February","March","April","May","June","July","August","September","October","November","December"]},"weekdays":{"longhand":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shorthand":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"daysInMonth":[31,28,31,30,31,30,31,31,30,31,30,31],"rangeSeparator":" to ","weekAbbreviation":"Wk","scrollTitle":"Scroll to increment","toggleTitle":"Click to toggle","amPM":["AM","PM"],"yearAriaLabel":"Year","firstDayOfWeek":1},"pro_version":"","fluentform_version":"6.2.2","force_init":"","stepAnimationDuration":"350","upload_completed_txt":"100% Completed","upload_start_txt":"0% Completed","uploading_txt":"Uploading","choice_js_vars":{"noResultsText":"No results found","loadingText":"Loading...","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","maxItemTextSingular":"Only %%maxItemCount%% option can be added","maxItemTextPlural":"Only %%maxItemCount%% options can be added"},"input_mask_vars":{"clearIfNotMatch":false},"nonce":"bc0fda7fc5","file_delete_nonce":"acecb4c1f7","form_id":"1","step_change_focus":"1","has_cleantalk":"","pro_payment_script_compatible":""};
+var fluentform_submission_messages_1 = {"file_upload_in_progress":"File upload in progress. Please wait...","javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_payment_messages_1 = {"stock_out_message":"This Item is Stock Out","item_label":"Item","price_label":"Price","qty_label":"Qty","line_total_label":"Line Total","sub_total_label":"Sub Total","discount_label":"Discount","total_label":"Total","signup_fee_label":"Signup Fee","trial_label":"Trial","processing_text":"Processing...","confirming_text":"Confirming..."};
+var fluentform_save_progress_messages_1 = {"copy_button":"Copy","email_button":"Email","email_placeholder":"Your Email Here","copy_success":"Copied"};
+var fluentform_address_messages_1 = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+var fluentform_gateway_messages_1 = {"request_failed":"Request failed. Please try again","payment_failed":"Payment process failed!","no_method_found":"No method found","processing_text":"Processing..."};
+var fluentform_submission_messages_global = {"javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_address_messages_global = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://maylocchungcu.test/wp-content/plugins/fluentform/assets/js/form-submission.js?ver=6.2.2" id="fluent-form-submission-js"></script>
+</body></html>

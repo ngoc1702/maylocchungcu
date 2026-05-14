@@ -27,9 +27,13 @@ if (!function_exists('aquira_landing_default')) {
                     array('label' => 'Cam kết', 'url' => '#camket'),
                 ),
 
-                'water_hero_eyebrow' => 'Bảo vệ nguồn nước gia đình',
-                'water_hero_title' => "Trải nghiệm & chăm sóc hệ thống\nđường ống nước sinh hoạt",
-                'water_hero_description' => 'Chương trình khảo sát dành riêng cho căn hộ tại tòa nhà nhằm nâng cao chất lượng cuộc sống và bảo vệ tài sản thiết bị vệ sinh của cư dân thông qua giải pháp lọc nước tổng trung tâm cao cấp.',
+                'water_hero_eyebrow' => 'Chăm sóc hệ thống nước gia đình',
+                'water_hero_title' => "Cho trải nghiệm nước\ndễ chịu hơn mỗi ngày.",
+                'water_hero_description' => "Chương trình khảo sát dành riêng cho căn hộ tại tòa nhà\nnhằm nâng cao trải nghiệm nước sinh hoạt,\nbảo vệ thiết bị và gìn giữ không gian sống lâu dài.",
+                'water_hero_card_icon_class' => 'fa-solid fa-droplet',
+                'water_hero_card_title' => 'Khảo sát chuyên sâu',
+                'water_hero_card_description' => 'Giải pháp phù hợp cho từng căn hộ',
+                'water_hero_card_accent' => 'Hoàn toàn miễn phí',
 
                 'water_benefits_title' => 'Ưu điểm của giải pháp Aquira',
                 'water_benefits' => array(
@@ -55,6 +59,7 @@ if (!function_exists('aquira_landing_default')) {
                     ),
                 ),
 
+                'water_process_eyebrow' => 'Quy trình',
                 'water_process_title' => 'Quy trình thực hiện',
                 'water_process_steps' => array(
                     array('number' => '1', 'title' => 'Khảo sát trực tuyến', 'description' => 'Chia sẻ nhu cầu và hiện trạng căn hộ của bạn thông qua form khảo sát.'),
@@ -364,7 +369,11 @@ add_action('acf/init', function () {
         aquira_landing_acf_image('field_water_hero_background', 'Ảnh nền hero', 'water_hero_background', 'Khuyến nghị ảnh hệ thống lọc nước/đường ống ngang, tối thiểu 1440px.'),
         aquira_landing_acf_text('field_water_hero_eyebrow', 'Dòng nhỏ hero', 'water_hero_eyebrow', aquira_landing_default('water_hero_eyebrow')),
         aquira_landing_acf_text('field_water_hero_title', 'Tiêu đề hero', 'water_hero_title', aquira_landing_default('water_hero_title'), 'textarea'),
-        aquira_landing_acf_text('field_water_hero_description', 'Mô tả trong khung hero', 'water_hero_description', aquira_landing_default('water_hero_description'), 'textarea'),
+        aquira_landing_acf_text('field_water_hero_description', 'Mô tả hero', 'water_hero_description', aquira_landing_default('water_hero_description'), 'textarea'),
+        aquira_landing_acf_text('field_water_hero_card_icon_class', 'Icon card hero (FontAwesome class)', 'water_hero_card_icon_class', aquira_landing_default('water_hero_card_icon_class'), 'text', 'Ví dụ: fa-solid fa-droplet. Để trống nếu không muốn hiển thị icon.'),
+        aquira_landing_acf_text('field_water_hero_card_title', 'Tiêu đề card hero', 'water_hero_card_title', aquira_landing_default('water_hero_card_title')),
+        aquira_landing_acf_text('field_water_hero_card_description', 'Mô tả card hero', 'water_hero_card_description', aquira_landing_default('water_hero_card_description')),
+        aquira_landing_acf_text('field_water_hero_card_accent', 'Dòng nhấn card hero', 'water_hero_card_accent', aquira_landing_default('water_hero_card_accent')),
     ));
 
     aquira_landing_register_group('group_aquira_water_benefits', 'Aquira Water Care - Ưu điểm', array(
@@ -385,6 +394,7 @@ add_action('acf/init', function () {
     ));
 
     aquira_landing_register_group('group_aquira_water_process', 'Aquira Water Care - Quy trình', array(
+        aquira_landing_acf_text('field_water_process_eyebrow', 'Dòng nhỏ', 'water_process_eyebrow', aquira_landing_default('water_process_eyebrow')),
         aquira_landing_acf_text('field_water_process_title', 'Tiêu đề', 'water_process_title', aquira_landing_default('water_process_title')),
         array(
             'key' => 'field_water_process_steps',

@@ -1,4 +1,5 @@
 <?php
+$process_eyebrow = aquira_landing_get_field('water_process_eyebrow', aquira_landing_default('water_process_eyebrow'));
 $process_title = aquira_landing_get_field('water_process_title', aquira_landing_default('water_process_title'));
 $steps = aquira_landing_get_field('water_process_steps', aquira_landing_default('water_process_steps'));
 ?>
@@ -6,9 +7,14 @@ $steps = aquira_landing_get_field('water_process_steps', aquira_landing_default(
 <section class="water-section water-process" id="quytrinh">
     <span class="water-anchor" id="process" aria-hidden="true"></span>
     <div class="water-container">
-        <?php if ($process_title) : ?>
+        <?php if ($process_eyebrow || $process_title) : ?>
             <div class="water-section-heading">
-                <h2><?php echo esc_html($process_title); ?></h2>
+                <?php if ($process_eyebrow) : ?>
+                    <p class="water-section-heading__eyebrow"><?php echo esc_html($process_eyebrow); ?></p>
+                <?php endif; ?>
+                <?php if ($process_title) : ?>
+                    <h2><?php echo esc_html($process_title); ?></h2>
+                <?php endif; ?>
             </div>
         <?php endif; ?>
 

@@ -3,7 +3,8 @@ $process_title = aquira_landing_get_field('water_process_title', aquira_landing_
 $steps = aquira_landing_get_field('water_process_steps', aquira_landing_default('water_process_steps'));
 ?>
 
-<section class="water-section water-process" id="process">
+<section class="water-section water-process" id="quytrinh">
+    <span class="water-anchor" id="process" aria-hidden="true"></span>
     <div class="water-container">
         <?php if ($process_title) : ?>
             <div class="water-section-heading">

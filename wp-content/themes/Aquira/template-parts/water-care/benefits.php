@@ -3,7 +3,9 @@ $benefits_title = aquira_landing_get_field('water_benefits_title', aquira_landin
 $benefits = aquira_landing_get_field('water_benefits', aquira_landing_default('water_benefits'));
 ?>
 
-<section class="water-section water-benefits" id="services">
+<section class="water-section water-benefits" id="uudiem">
+    <span class="water-anchor" id="benefits" aria-hidden="true"></span>
+    <span class="water-anchor" id="services" aria-hidden="true"></span>
     <div class="water-container">
         <?php if ($benefits_title) : ?>
             <div class="water-section-heading">

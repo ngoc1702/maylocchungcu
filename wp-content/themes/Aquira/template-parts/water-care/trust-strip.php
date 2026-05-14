@@ -3,7 +3,7 @@ $trust_items = aquira_landing_get_field('water_trust_items', aquira_landing_defa
 ?>
 
 <?php if (!empty($trust_items) && is_array($trust_items)) : ?>
-    <section class="water-trust-strip" aria-label="Cam kết dịch vụ">
+    <section class="water-trust-strip" id="camket" aria-label="Cam kết dịch vụ">
         <div class="water-container">
             <div class="water-trust-strip__grid">
                 <?php foreach (array_slice($trust_items, 0, 3) as $item) :

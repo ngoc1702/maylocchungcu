@@ -19,11 +19,12 @@ if (!function_exists('aquira_landing_default')) {
             $defaults = array(
                 'water_brand_name' => 'Aquira',
                 'water_brand_full_name' => 'Aquira Water Care',
-                'water_header_button' => array('title' => 'Dành riêng cho cư dân', 'url' => '#survey', 'target' => ''),
+                'water_header_button' => array('title' => 'Dành riêng cho cư dân', 'url' => '#khaosat', 'target' => ''),
                 'water_nav_items' => array(
-                    array('label' => 'Về chúng tôi', 'url' => '#benefits'),
-                    array('label' => 'Dịch vụ', 'url' => '#services'),
-                    array('label' => 'Quy trình', 'url' => '#process'),
+                    array('label' => 'Quy trình', 'url' => '#quytrinh'),
+                    array('label' => 'Khảo sát', 'url' => '#khaosat'),
+                    array('label' => 'Ưu điểm', 'url' => '#uudiem'),
+                    array('label' => 'Cam kết', 'url' => '#camket'),
                 ),
 
                 'water_hero_eyebrow' => 'Bảo vệ nguồn nước gia đình',
@@ -74,15 +75,21 @@ if (!function_exists('aquira_landing_default')) {
                     array('icon_class' => 'fa-solid fa-shield-halved', 'eyebrow' => 'Thông tin', 'title' => 'Tuyệt đối bảo mật'),
                     array('icon_class' => 'fa-solid fa-hand-holding-heart', 'eyebrow' => 'Hỗ trợ', 'title' => 'Tận tâm 24/7'),
                 ),
-
+                
+                'water_footer_contacts' => array(
+                    array('icon_class' => 'fa-solid fa-location-dot', 'text' => '21 Mỹ Đa Đông 4, Ngũ Hành Sơn, Đà Nẵng', 'url' => ''),
+                    array('icon_class' => 'fa-solid fa-phone', 'text' => '0822335343', 'url' => 'tel:0822335343'),
+                    array('icon_class' => 'fa-solid fa-envelope', 'text' => 'xhomedananghotelsuite@gmail.com', 'url' => 'mailto:xhomedananghotelsuite@gmail.com'),
+                ),
                 'water_footer_description' => 'Giải pháp chăm sóc và bảo vệ hệ thống nước sinh hoạt tiêu chuẩn quốc tế cho căn hộ cao cấp.',
                 'water_footer_links' => array(
-                    array('label' => 'Về Aquira', 'url' => '#benefits'),
-                    array('label' => 'Dịch vụ lắp đặt', 'url' => '#services'),
-                    array('label' => 'Bảo trì hệ thống', 'url' => '#process'),
+                    array('label' => 'Quy trình', 'url' => '#quytrinh'),
+                    array('label' => 'Khảo sát', 'url' => '#khaosat'),
+                    array('label' => 'Ưu điểm', 'url' => '#uudiem'),
+                    array('label' => 'Cam kết', 'url' => '#camket'),
                 ),
                 'water_footer_support_links' => array(
-                    array('label' => 'Trung tâm trợ giúp', 'url' => '#survey'),
+                    array('label' => 'Trung tâm trợ giúp', 'url' => '#khaosat'),
                     array('label' => 'Điều khoản dịch vụ', 'url' => '#footer'),
                     array('label' => 'Chính sách bảo mật', 'url' => '#footer'),
                 ),
@@ -328,13 +335,13 @@ if (!function_exists('aquira_landing_register_group')) {
 add_action('acf/init', function () {
     if (function_exists('acf_add_options_page')) {
         acf_add_options_page(array(
-            'page_title' => 'Landing Aquira Water Care',
-            'menu_title' => 'Landing Aquira Water Care',
-            'menu_slug' => 'aquira-water-care-landing',
-            'capability' => 'edit_posts',
-            'redirect' => false,
-            'position' => 30,
-            'icon_url' => 'dashicons-filter',
+            // 'page_title' => 'Landing Aquira Water Care',
+            // 'menu_title' => 'Landing Aquira Water Care',
+            // 'menu_slug' => 'aquira-water-care-landing',
+            // 'capability' => 'edit_posts',
+            // 'redirect' => false,
+            // 'position' => 30,
+            // 'icon_url' => 'dashicons-filter',
         ));
     }
 
@@ -395,16 +402,17 @@ add_action('acf/init', function () {
     ));
 
     aquira_landing_register_group('group_aquira_water_survey', 'Aquira Water Care - Khảo sát Fluent Forms', array(
+        aquira_landing_acf_text('field_water_survey_title', 'Tiêu đề khảo sát', 'water_survey_title', aquira_landing_default('water_survey_title')),
         aquira_landing_acf_text('field_water_survey_shortcode', 'Shortcode Fluent Forms', 'water_survey_shortcode', '', 'text', 'Dán shortcode dạng [fluentform id="1"]. Nội dung câu hỏi và submission quản trị trong Fluent Forms.'),
-        aquira_landing_acf_text('field_water_survey_title', 'Tiêu đề khảo sát fallback', 'water_survey_title', aquira_landing_default('water_survey_title')),
-        aquira_landing_acf_text('field_water_contact_title', 'Tiêu đề thông tin liên hệ fallback', 'water_contact_title', aquira_landing_default('water_contact_title')),
-        aquira_landing_acf_text('field_water_contact_description', 'Mô tả thông tin liên hệ fallback', 'water_contact_description', aquira_landing_default('water_contact_description'), 'textarea'),
-        aquira_landing_acf_text('field_water_privacy_title', 'Tiêu đề cam kết bảo mật fallback', 'water_privacy_title', aquira_landing_default('water_privacy_title')),
-        aquira_landing_acf_text('field_water_privacy_description', 'Mô tả bảo mật fallback', 'water_privacy_description', aquira_landing_default('water_privacy_description'), 'textarea'),
-        aquira_landing_acf_text('field_water_submit_text', 'Text nút gửi fallback', 'water_submit_text', aquira_landing_default('water_submit_text')),
+        
+        // aquira_landing_acf_text('field_water_contact_title', 'Tiêu đề thông tin liên hệ fallback', 'water_contact_title', aquira_landing_default('water_contact_title')),
+        // aquira_landing_acf_text('field_water_contact_description', 'Mô tả thông tin liên hệ fallback', 'water_contact_description', aquira_landing_default('water_contact_description'), 'textarea'),
+        // aquira_landing_acf_text('field_water_privacy_title', 'Tiêu đề cam kết bảo mật fallback', 'water_privacy_title', aquira_landing_default('water_privacy_title')),
+        // aquira_landing_acf_text('field_water_privacy_description', 'Mô tả bảo mật fallback', 'water_privacy_description', aquira_landing_default('water_privacy_description'), 'textarea'),
+        // aquira_landing_acf_text('field_water_submit_text', 'Text nút gửi fallback', 'water_submit_text', aquira_landing_default('water_submit_text')),
     ));
 
-    aquira_landing_register_group('group_aquira_water_footer', 'Aquira Water Care - Cam kết & Footer', array(
+    aquira_landing_register_group('group_aquira_water_footer', 'Aquira Water Care - Cam kết & Footer', array(  
         array(
             'key' => 'field_water_trust_items',
             'label' => 'Dải cam kết',
@@ -418,8 +426,22 @@ add_action('acf/init', function () {
                 aquira_landing_acf_text('field_water_trust_title', 'Tiêu đề', 'title'),
             ),
         ),
+        aquira_landing_acf_image('field_water_footer_logo', 'Logo footer', 'water_footer_logo'),
         aquira_landing_acf_text('field_water_brand_full_name', 'Tên thương hiệu footer', 'water_brand_full_name', aquira_landing_default('water_brand_full_name')),
         aquira_landing_acf_text('field_water_footer_description', 'Mô tả footer', 'water_footer_description', aquira_landing_default('water_footer_description'), 'textarea'),
+        array(
+            'key' => 'field_water_footer_contacts',
+            'label' => 'Thông tin liên hệ',
+            'name' => 'water_footer_contacts',
+            'type' => 'repeater',
+            'layout' => 'row',
+            'button_label' => 'Thêm liên hệ',
+            'sub_fields' => array(
+                aquira_landing_acf_text('field_water_footer_contact_icon_class', 'FontAwesome class', 'icon_class', 'fa-solid fa-circle-info'),
+                aquira_landing_acf_text('field_water_footer_contact_text', 'Nội dung', 'text'),
+                aquira_landing_acf_text('field_water_footer_contact_url', 'Link', 'url'),
+            ),
+        ),
         aquira_landing_acf_simple_links('field_water_footer_links', 'Cột Liên kết', 'water_footer_links'),
         aquira_landing_acf_simple_links('field_water_footer_support_links', 'Cột Hỗ trợ', 'water_footer_support_links'),
         array(

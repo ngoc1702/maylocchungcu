@@ -9,9 +9,13 @@ $submit_text = aquira_landing_get_field('water_submit_text', aquira_landing_defa
 $can_render_fluent = aquira_landing_can_render_fluent_form($survey_shortcode);
 ?>
 
-<section class="water-section water-survey" id="survey">
+<section class="water-section water-survey" id="khaosat">
+    <span class="water-anchor" id="survey" aria-hidden="true"></span>
     <div class="water-container">
         <div class="water-survey__shell">
+              <?php if ($survey_title) : ?>
+                        <h2 class="water-survey__title"><?php echo esc_html($survey_title); ?></h2>
+                    <?php endif; ?>
             <?php if ($can_render_fluent) : ?>
                 <div class="water-survey__fluent">
                     <?php echo do_shortcode($survey_shortcode); ?>
